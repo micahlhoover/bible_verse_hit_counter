@@ -64,7 +64,7 @@ Easiest to understand !
 		$env:DATAFORSEO_PASSWORD="..."
 		$env:DATAFORSEO_PASSWORD="..."		# base64
 
-		curl -X POST "https://api.dataforseo.com/v3/serp/google/organic/task_post" -H "Authorization: Basic bWljYWhsaG9vdmVyQGdtYWlsLmNvbTo3MzA2YzE1MjA0NGMyZTMy" -H "Content-Type: application/json" -d "[{ \"keyword\": \"Proverbs 1:1\", \"location_code\": 2840, \"language_code\": \"en\" }]"
+		curl -X POST "https://api.dataforseo.com/v3/serp/google/organic/task_post" -H "Authorization: Basic [the long one here]" -H "Content-Type: application/json" -d "[{ \"keyword\": \"Proverbs 1:1\", \"location_code\": 2840, \"language_code\": \"en\" }]"
 		Works ... from CMD <---
 			{
 				"version": "0.1.20260415",
