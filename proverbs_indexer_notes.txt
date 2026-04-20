@@ -1,0 +1,245 @@
+31,102 verses in the Bible
+7,957 verses in the New Testament
+915 verses
+
+Categories
+	hard to swallow pills
+	hidden immensity
+	hostility toward heaven
+Dimensions
+	difficulty of understanding 
+	difficulty of following
+
+Something about how God's word does not return void
+
+For every time someone mentions Proverbs 29:27, Proverbs 3:4 gets mentioned 222 times
+
+book,chapter,verse,raw_hit_count,ordinal_rank,verse_text
+Proverbs,29,27,86700,1,An unjust man is an abomination to the just: and he that is upright in the way is abomination to the wicked.
+	difficulty to understand : low			difficulty to follow : 	low ... mid ?
+Proverbs,29,21,93200,2,He that delicately bringeth up his servant from a child shall have him become his son at the length.
+	difficulty to understand : mid			difficulty to follow : low
+Proverbs,30,29,97900,3,"There be three things which go well, yea, four are comely in going:"
+	difficulty to understand : hi			difficulty to follow : hi			
+							a lion, mighty among beasts,
+							who retreats before nothing;
+						31 a strutting rooster, a he-goat,
+							and a king secure against revolt.
+Proverbs,31,22,99900,4,She maketh herself coverings of tapestry; her clothing is silk and purple.
+	difficulty to understand : low *		difficulty to follow : hi 
+	* altho could be hard for people to understand today with abundant 
+Proverbs,30,23,102000,5,For an odious woman when she is married; and an handmaid that is heir to her mistress.
+	difficulty to understand : hi 			difficulty to follow : low
+Proverbs,30,28,103000,6,"The spider taketh hold with her hands, and is in kings’ palaces."
+	difficulty to understand : hi*			difficulty to follow : low 
+		* for modern audiences
+Proverbs,14,35,108000,7,The king’s favour is toward a wise servant: but his wrath is against him that causeth shame.
+	difficulty to understanad : lo			difficulty to follow : mid
+		people want to say the king (or the boss) gets mad because there's something wrong with the king 
+
+
+Easiest to understand !
+	Proverbs,3,4,19300000,915,So shalt thou find favour and good understanding in the sight of God and man.
+
+	SearchAPI.io
+		https://www.searchapi.io/
+
+
+		$env:SEARCHAPI_API_KEY="..."
+
+	DataForSEO
+
+		Wow, this looks fantastically priced ... 
+		.59 for the entire book of Proverbs ??
+
+		https://app.dataforseo.com/register
+
+		api password :
+			...
+
+		https://app.dataforseo.com/api-access
+
+		$env:DATAFORSEO_LOGIN="micahlhoover@gmail.com"
+		$env:DATAFORSEO_PASSWORD="..."
+		$env:DATAFORSEO_PASSWORD="..."
+		$env:DATAFORSEO_PASSWORD="..."		# base64
+
+		curl -X POST "https://api.dataforseo.com/v3/serp/google/organic/task_post" -H "Authorization: Basic bWljYWhsaG9vdmVyQGdtYWlsLmNvbTo3MzA2YzE1MjA0NGMyZTMy" -H "Content-Type: application/json" -d "[{ \"keyword\": \"Proverbs 1:1\", \"location_code\": 2840, \"language_code\": \"en\" }]"
+		Works ... from CMD <---
+			{
+				"version": "0.1.20260415",
+				"status_code": 40104,
+				"status_message": "Please verify your account before using the API. You can complete verification in the user panel: https:\/\/app.dataforseo.com\/ .",
+				"time": "0 sec.",
+				"cost": 0,
+				"tasks_count": 0,
+				"tasks_error": 0,
+				"tasks": null
+			}
+
+		Sus :
+			Proverbs,1,23,Proverbs 1:23,True,0,2240000,False,0,0,True,9,9,6.350248,0.837217,0.871621,0.778787
+			Proverbs,2,22,Proverbs 2:22,True,132,902000,True,10,10,True,9,9,5.955207,0.18576,0.817399,0.702823
+			Proverbs,4,9,Proverbs 4:9,True,132,2500000,True,10,10,True,9,9,6.39794,0.915865,0.878168,0.787958
+			Proverbs,5,12,Proverbs 5:12,True,892,2340000,True,10,10,True,8,8,6.369216,0.868496,0.874225,0.782435
+			Proverbs,6,28,Proverbs 6:28,True,312,369000,True,10,10,True,10,10,5.567028,-0.454381,0.764118,0.628179
+			Proverbs,10,4,Proverbs 10:4,True,133,1320000,True,8,8,True,9,9,6.120574,0.458465,0.840097,0.734622
+			Proverbs,10,10,Proverbs 10:10,True,0,2940000,False,0,0,True,10,10,6.468347,1.031972,0.887832,0.801497
+			Proverbs,10,27,Proverbs 10:27,True,133,1200000,True,10,10,True,10,10,6.079182,0.390205,0.834415,0.726663
+			Proverbs,11,12,Proverbs 11:12,True,133,8990000,True,8,8,True,9,9,6.95376,1.832458,0.954458,0.894839
+			Proverbs,12,1,Proverbs 12:1,True,130,3940000,True,10,10,True,8,8,6.595496,1.241651,0.905284,0.825947
+			Proverbs,12,28,Proverbs 12:28,True,0,485000,False,0,0,True,9,9,5.685743,-0.258609,0.780413,0.651007
+			Proverbs,14,20,Proverbs 14:20,True,132,501000,True,7,7,True,8,8,5.699839,-0.235364,0.782348,0.653718
+			Proverbs,18,7,Proverbs 18:7,True,0,377000,False,0,0,True,9,9,5.576343,-0.43902,0.765397,0.62997
+			Proverbs,19,6,Proverbs 19:6,True,0,730000,False,0,0,True,10,10,5.863323,0.034236,0.804787,0.685155
+			Proverbs,19,15,Proverbs 19:15,True,0,384000,False,0,0,True,8,8,5.584332,-0.425844,0.766494,0.631507
+			Proverbs,19,18,Proverbs 19:18,True,0,386000,False,0,0,True,9,9,5.586588,-0.422123,0.766803,0.63194
+			Proverbs,19,19,Proverbs 19:19,True,0,0,False,0,0,False,0,0,0.0,-9.634881,0.0,0.0
+			Proverbs,19,20,Proverbs 19:20,True,0,0,False,0,0,False,0,0,0.0,-9.634881,0.0,0.0
+			Proverbs,19,21,Proverbs 19:21,True,0,0,False,0,0,False,0,0,0.0,-9.634881,0.0,0.0
+			Proverbs,19,22,Proverbs 19:22,True,0,0,False,0,0,False,0,0,0.0,-9.634881,0.0,0.0
+			Proverbs,19,23,Proverbs 19:23,True,0,0,False,0,0,False,0,0,0.0,-9.634881,0.0,0.0
+			Proverbs,20,4,Proverbs 20:4,True,0,595000,False,0,0,True,10,10,5.774518,-0.112212,0.792598,0.668078
+			Proverbs,20,15,Proverbs 20:15,True,0,400000,False,0,0,True,8,8,5.602061,-0.396607,0.768927,0.634916
+			Proverbs,21,2,Proverbs 21:2,True,0,600000,False,0,0,True,10,10,5.778152,-0.106219,0.793097,0.668777
+			Proverbs,21,6,Proverbs 21:6,True,0,376000,False,0,0,True,10,9,5.575189,-0.440922,0.765239,0.629748
+			Proverbs,21,15,Proverbs 21:15,True,0,381000,False,0,0,True,9,8,5.580926,-0.431461,0.766026,0.630852
+			Proverbs,22,2,Proverbs 22:2,True,0,567000,False,0,0,True,9,9,5.753584,-0.146734,0.789725,0.664053
+			Proverbs,23,1,Proverbs 23:1,True,0,1450000,False,0,0,True,9,9,6.161368,0.525738,0.845696,0.742467
+			Proverbs,23,4,Proverbs 23:4,True,0,1160000,False,0,0,True,10,10,6.064458,0.365925,0.832395,0.723832
+			Proverbs,23,21,Proverbs 23:21,True,0,288000,False,0,0,True,9,9,5.459394,-0.631878,0.749345,0.607482
+			Proverbs,23,24,Proverbs 23:24,True,0,3870000,False,0,0,True,8,8,6.587711,1.228813,0.904215,0.82445
+			Proverbs,23,31,Proverbs 23:31,True,0,246000,False,0,0,True,9,9,5.390937,-0.744769,0.739948,0.594318
+			Proverbs,26,21,Proverbs 26:21,True,0,139000,False,0,0,True,10,10,5.143018,-1.153608,0.70592,0.546645
+			Proverbs,26,28,Proverbs 26:28,True,0,1310000,False,0,0,True,10,10,6.117272,0.453018,0.839644,0.733987
+			Proverbs,27,5,Proverbs 27:5,True,0,369000,False,0,0,True,9,9,5.567028,-0.454381,0.764118,0.628179
+			Proverbs,27,15,Proverbs 27:15,True,0,178000,False,0,0,True,9,9,5.250422,-0.976489,0.720662,0.567298
+			Proverbs,27,17,Proverbs 27:17,True,0,1140000,False,0,0,True,7,7,6.056905,0.353469,0.831358,0.722379
+			Proverbs,27,19,Proverbs 27:19,True,0,307000,False,0,0,True,10,10,5.48714,-0.586122,0.753153,0.612817
+			Proverbs,28,8,Proverbs 28:8,True,0,355000,False,0,0,True,10,10,5.55023,-0.482082,0.761813,0.624949
+			Proverbs,28,10,Proverbs 28:10,True,0,280000,False,0,0,True,8,8,5.44716,-0.652053,0.747665,0.605129
+			Proverbs,31,22,Proverbs 31:22,True,0,479000,False,0,0,True,10,10,5.680336,-0.267525,0.779671,0.649968
+			Proverbs,31,23,Proverbs 31:23,True,0,149000,False,0,0,True,9,9,5.173189,-1.103854,0.710061,0.552446
+			Proverbs,31,30,Proverbs 31:30,True,134,616000,True,8,8,True,9,9,5.789581,-0.087371,0.794666,0.670975
+
+			42 hand counted fails among 991 which is like 4.2%
+
+			python .\inspect_suspicious_rows.py proverbs_total_hits_dataforseo.csv
+				oh ... missed one !
+
+			python .\repair_suspicious_rows.py proverbs_total_hits_dataforseo.csv
+
+			python .\merge_and_sort_proverbs2.py
+
+			Repair summary
+				------------------------------------------------------------
+				Book inferred              : Proverbs
+				Source file                : proverbs_total_hits_dataforseo.csv
+				Output file                : proverbs_total_hits_dataforseo_repaired.csv
+				Suspicious rows found      : 43
+				Rows re-pulled             : 43
+				Still suspicious after run : 43			<--- none of them looked suspicious to me
+				------------------------------------------------------------
+				could be changed :
+					print something for each retry 
+					fix the "still suspicious after run" thing
+
+	Serper.dev		free tier
+
+		range : [ 24 .. 47 ]
+
+		api key :
+			...
+		pass : ...
+		
+		$env:SERPER_API_KEY="..."
+		
+		PS C:\Users\m.l.hoover\Desktop\proverbs_indexer> python .\verse_indexer2.py
+			Saved debug JSON -> debug_responses\Proverbs_1_1.json
+			Saved debug JSON -> debug_responses\Proverbs_1_2.json
+			Saved debug JSON -> debug_responses\Proverbs_1_3.json
+			Querying Serper for Proverbs verses: 100%|███████████████████████████████████████████| 915/915 [21:12<00:00,  1.39s/it]
+			Done. Wrote 915 rows to: proverbs_hits.csv
+			
+		Nine 30 rank Proverbs verses:
+			Line  58: Proverbs,3,2,0,30,1.491362,-2.340919,0.329761
+			Line  63: Proverbs,3,7,0,30,1.491362,-2.340919,0.329761
+			Line  94: Proverbs,4,3,0,30,1.491362,-2.340919,0.329761
+			Line 120: Proverbs,5,2,0,30,1.491362,-2.340919,0.329761
+			Line 123: Proverbs,5,5,0,30,1.491362,-2.340919,0.329761
+			Line 124: Proverbs,5,6,0,30,1.491362,-2.340919,0.329761
+			Line 210: Proverbs,8,7,0,30,1.491362,-2.340919,0.329761
+			Line 243: Proverbs,9,4,0,30,1.491362,-2.340919,0.329761
+			Line 244: Proverbs,9,5,0,30,1.491362,-2.340919,0.329761
+		
+		1) Why your proxy scores cluster into a tight range
+			Right now your proxy_score is basically:
+
+			3 * len(organic)  → almost always 3 * 10 = 30 because you request num=10
+			plus a small bump from:
+
+			peopleAlsoAsk (often 0–4-ish)
+			relatedSearches (often ~8)
+			knowledgeGraph (often 0/1)
+
+		Serper.dev basically yields a "SERP score" between 30 - 46 ... not great
+
+				
+
+			That means most verses will land near ~30 + ~8 = ~38, then drift up/down by just a handful depending on PAA/other features. You can see this in your debug JSONs:
+
+			Proverbs 1:1 has organic (10) and relatedSearches (8), but no peopleAlsoAsk shown → score ~30 + 8 = 38 (matches your CSV: 38). [serpstack.com], [serp.ai]
+			Proverbs 1:2 has peopleAlsoAsk with 2 items → score bumps to 42 (matches CSV: 42). [topbusines...ftware.com], [serp.ai]
+			Proverbs 1:3 has peopleAlsoAsk with 4 items → score 46 (matches CSV: 46). [docs.apilayer.com], [serp.ai]
+
+			So yes: a lot of verses will share the same “rank,” because you’re measuring a small set of discrete SERP features.
+					
+	
+	SearchCans (Pay‑as‑you‑go, ultra‑cheap)	$0.56 per 1,000 searches
+
+	Serpstack (APILayer)
+
+		$env:SERPSTACK_ACCESS_KEY="..."
+
+		...
+
+		...
+
+		100 requests per month
+		For $26.99 per month I can get 5,000 searches
+
+		Has a built-in “total results” style field?
+			Yes (search_information.total_results)
+
+		Likely granularity vs your 30–46 band
+			Much higher (often thousands → millions → billions)
+
+		Their example response shows search_information.total_results as a large integer (e.g., 759,000,000). [serpstack.com], [serpstack.com]
+
+		Shape of request / repsonse :
+			request like 
+				https://api.serpstack.com/search?access_key=YOUR_ACCESS_KEY...
+			"search_information": { "total_results": 759000000, ... }
+
+
+	(bible-api.com) lets you pull verses for FREE 
+		https://bible-api.com/Proverbs%203:5
+		
+		{
+		"reference": "Proverbs 3:5",
+		"text": "Trust in the LORD with all your heart...",
+		"translation_id": "kjv"
+		}
+
+
+	Scores from Serp.dev and SerpStack are neither directionally aligned nor aligned in degree :
+		The scores from each verse in chapter 1 from each search API :
+			serpstack=[8090000,20100000,11000000,7370000,7150000,5720000,6040000,5600000,5970000,4580000,4470000,4310000,3640000,4120000,3750000,3520000,3520000,3710000,2640000,3420000,2400000,129,1230000,2100000,932000,1740000,2320000,996000,836000,944000,710000,385000,847000]
+			serper=[38,40,38,40,40,35,40,42,40,42,42,38,42,44,42,42,37,38,40,40,42,42,30,40,38,42,40,42,38,40,42,30,42]
+
+
+	Since you now have Serpstack totals (good granularity), you can still keep Serper around, but treat it as a different axis:
+		Axis 1 (Serpstack): broad “how many pages match”
+		Axis 2 (Serper): “how SERP-featured / curated / question-like this verse is”
+
+
