@@ -2,6 +2,37 @@
 7,957 verses in the New Testament
 915 verses
 
+1)	cd C:\Users\micah\OneDrive\Desktop\bible_verse_hit_counter
+2)  modify verse_indexer_seo3_generic.py
+		modify BOOK_NAME
+		get chater / verse structure
+			I'm trying to get the web count totals for each verse in the book of Matthew using a search API.The python struct I used to keep track of how far to go into each chapter of Proverbs looked like this :VERSES_PER_CHAPTER: Dict[int, int] = {
+				1: 33,  2: 22,  3: 35,  4: 27,  5: 23,  6: 35,  7: 27,  8: 36,
+				9: 18, 10: 32, 11: 31, 12: 28, 13: 25, 14: 35, 15: 33, 16: 33,
+				17: 28, 18: 24, 19: 29, 20: 30, 21: 31, 22: 29, 23: 35, 24: 34,
+				25: 28, 26: 28, 27: 27, 28: 28, 29: 27, 30: 33, 31: 31
+			}
+			Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
+			Can you create a similar python dict for XXXXXXXX and show me the code ?
+3)	python ./verse_indexer_seo3_generic.py
+4)	modify verse_fetcher.py 
+5)	python ./verse_fetcher.py
+6)	python repair_suspicious_rows.py XXXXX_total_hits_dataforseo.csv
+	book name is inferred from filename
+	in theory you shouldn't have to adjust this
+7)	python .\inspect_suspicious_rows XXXXX_total_hits_dataforseo.csv
+	you should NOT have to re-repair, check the gaps
+8)	Modify BOOK_NAME in merge_and_sort_generic.py
+9)	Make sure the number of _repairs is correct (e.g. if HITS_FILE expects _repairs_repairs there should be a corresponding file)
+10)	python merge_and_sort_generic.py
+11) put XXXXX_total_hits_dataforseo_repaired.csv into archive
+12) put XXXXX_sorted_by_unpopularity2.csv into done
+
+I've got a python script to snatch every verse in the book of Matthew like this :MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]Such that chapter 1 has one verse, so it indexes from 1 to 25, and for chapter 2 1 to 23 and so on.Now I need to pull Mark.Can you create such a structure for me ?
+
+
+
+
 Categories
 	hard to swallow pills
 	hidden immensity
@@ -36,6 +67,69 @@ Proverbs,30,28,103000,6,"The spider taketh hold with her hands, and is in kings�
 Proverbs,14,35,108000,7,The king’s favour is toward a wise servant: but his wrath is against him that causeth shame.
 	difficulty to understanad : lo			difficulty to follow : mid
 		people want to say the king (or the boss) gets mad because there's something wrong with the king 
+
+
+Normalization info from Grok
+
+	Yes — this is exactly the right direction. "Regression" is the correct term here (specifically, fitting a curve like linear, polynomial/quadratic, exponential decay, or power-law to model the positional drop-off). "Normalizing" is also appropriate — you're adjusting for the expected positional bias to surface verses that are unusually low (or high) relative to their location.This approach turns raw popularity into a residual-based "avoidance/unpopularity" score:Fit a model: expected_hits ≈ f(verse_position_in_book) (or in_chapter, etc.).
+	Compute residual = actual_hits - expected_hits (or better, log-scale for multiplicative effects).
+	Or use standardized residuals / z-score relative to the model's prediction error.
+	Verses with large negative residuals are the ones "underperforming" (potentially being avoided relative to their position).
+
+	Recommended modeling steps in Python (using your CSV format):Per-book analysis (best starting point): Group by book, treat chapter*100 + verse or a simple ordinal_position as the x-variable, raw_hit_count (or log(raw_hit_count)) as y.
+	Try different fits:Linear regression (statsmodels or scikit-learn).
+	Polynomial (quadratic/cubic via numpy.polyfit or sklearn.preprocessing.PolynomialFeatures).
+	Exponential or power-law decay (use scipy.optimize.curve_fit).
+	Non-parametric options like LOWESS for flexible smoothing if the drop-off isn't cleanly polynomial.
+
+	For each verse, calculate the residual (how far below the fitted curve it sits).
+	Rank by negative residual size, or convert to a z-like score: (actual - predicted) / model_error.
+	You can also do this at the chapter level within a book for finer granularity.
+
+	Additional robust techniques (since hit counts are skewed and noisy):Use log(raw_hit_count) as the target — this often handles the multiplicative decay better.
+	IQR-based or median absolute deviation (MAD) residuals instead of assuming normality.
+	Z-score within book or percentile rank within book as a simpler alternative/supplement to regression.
+	Flag verses that are low and in high-expected regions (e.g., early chapters but unusually low hits).
+
+
+Visualization suggestions from Grok
+
+	Recommended Approaches (from Easiest to Most Custom)1. Quickest No/Low-Code Options (Great for Prototyping)These let you upload your CSV data (book, chapter, verse, hit_count) and get an interactive heatmap fast, often with filters, tooltips, and some drill-down.Flourish.studio — Excellent for interactive heatmaps. Upload your spreadsheet, choose a heatmap template, add color scales (e.g., darker = higher popularity), and enable popups/filters. It supports animations and storytelling. Limited built-in hierarchical drill-down, but you can create linked views or multiple charts (one for books, one for chapters). Free tier available; very visual editor. 
+
+	flourish.studio
+
+	Observable Plot (or full Observable notebooks) — Free, browser-based, and surprisingly powerful for this. You can load your CSVs, create a heatmap with Plot.rect() or similar, then add click handlers for drill-down. Many Bible-related viz examples exist on Observable. Great for exploration without a full web app.
+	Datawrapper or Tableau Public — Strong for heatmaps and hierarchical views. Tableau especially handles drill-down well (click a book to filter to its chapters/verses).
+
+	Existing Bible examples (for inspiration):JW Library Analytics has a verse-level heatmap by usage over time. 
+
+	analytics.jws-library.one
+
+	Gospel Daily has a scripture heatmap with verse density and patterns. 
+
+	gospeldaily.app
+
+	Bible cross-reference tools often use heatmaps + sunburst/treemap for hierarchy. 
+
+	getproselytized.com
+
+	2. Best JavaScript Frameworks/Libraries for Full ControlFor a polished, embeddable web page with smooth book → chapter → verse drill-down:Plotly.js (top recommendation for you)
+	Built on D3, it has excellent heatmap support out of the box (plotly.js heatmaps are fast and interactive with hover, zoom, clicks). It supports drill-down via click events: click a book cell → update the chart to show chapters of that book (or open a modal/sub-view). You can also layer in a sunburst or treemap for the high-level hierarchy (Testament → Book → Chapter). Very declarative and beginner-friendly compared to raw D3. Handles large datasets well (your ~1,000+ Matthew/Proverbs rows are tiny). 
+
+	plotly.com
+
+	D3.js (most flexible, especially for custom "Passion dip" highlighting)
+	The gold standard for bespoke interactive visualizations. Use d3-hierarchy for tree/sunburst/treemap views at the book/chapter level, combined with a custom SVG/Canvas heatmap for verses. Click handlers make drill-down seamless (e.g., zoom into a book or replace the view with a chapter heatmap). Many existing Bible viz projects (cross-references, word frequency) use D3. Steeper learning curve, but ObservableHQ makes it much easier to prototype (you can fork examples directly). 
+
+	d3js.org
+
+	Other strong options:ApexCharts or ECharts (Apache): Modern, responsive, built-in heatmaps, drill-down support, and easy React/Vue integration. Good performance.
+	Highcharts: Excellent drill-down features (including for maps/heatmaps) and polished out-of-the-box interactivity.
+	Chart.js: Simpler for basic heatmaps, but less ideal for deep hierarchy.
+
+	For the hierarchy part, combine with:Sunburst (radial) or Treemap for books/chapters overview.
+	Then switch to or embed a rectangular heatmap for verses within a chapter (color intensity = raw_hit_count).
+
 
 
 Easiest to understand !

@@ -12,13 +12,37 @@ try:
 except ImportError:
     tqdm = None
 
+# run :
+#   python ./verse_fetcher.py
 
-BOOK_NAME = "Proverbs"
 
-PROVERBS_VERSES_PER_CHAPTER: List[int] = [
-    33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
-    31, 28, 25, 35, 33, 33, 28, 24, 29, 30,
-    31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31
+BOOK_NAME = "Mark"
+
+# PROVERBS_VERSES_PER_CHAPTER: List[int] = [
+#     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
+#     31, 28, 25, 35, 33, 33, 28, 24, 29, 30,
+#     31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31
+# ]
+
+#MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
+
+MARK_VERSES_PER_CHAPTER: List[int] = [
+    45,  # Chapter 1
+    28,  # Chapter 2
+    35,  # Chapter 3
+    41,  # Chapter 4
+    43,  # Chapter 5
+    56,  # Chapter 6
+    37,  # Chapter 7
+    38,  # Chapter 8
+    50,  # Chapter 9
+    52,  # Chapter 10
+    33,  # Chapter 11
+    44,  # Chapter 12
+    37,  # Chapter 13
+    72,  # Chapter 14
+    47,  # Chapter 15
+    20   # Chapter 16 (includes verses 9-20)
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
@@ -27,7 +51,7 @@ BASE_URL = "https://bible-api.com"  # [5](https://bible-api.com/)
 
 def iter_refs() -> List[Tuple[int, int]]:
     refs = []
-    for ch, vc in enumerate(PROVERBS_VERSES_PER_CHAPTER, start=1):
+    for ch, vc in enumerate(MARK_VERSES_PER_CHAPTER, start=1):
         for v in range(1, vc + 1):
             refs.append((ch, v))
     return refs
@@ -70,11 +94,11 @@ def robust_fetch_kjv(chapter: int, verse: int, max_retries: int = 5) -> str:
     return ""
 
 
-def main(out_csv: str = "proverbs_kjv.csv", polite_delay_s: float = 0.05):
+def main(out_csv: str = f"verse_content/{BOOK_NAME}_kjv.csv", polite_delay_s: float = 0.05):
     refs = iter_refs()
     iterator = refs
     if tqdm is not None:
-        iterator = tqdm(refs, desc="Fetching KJV text for Proverbs")
+        iterator = tqdm(refs, desc=f"Fetching KJV text for {BOOK_NAME}")
 
     with open(out_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["book", "chapter", "verse", "verse_text"])

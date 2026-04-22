@@ -1,11 +1,12 @@
 import csv
 
-KJV_FILE  = "proverbs_kjv.csv"
-HITS_FILE = "proverbs_total_hits_dataforseo_repaired.csv"
-OUT_FILE  = "sorted_by_unpopularity2.csv"
+BOOK_NAME = "Mark"
+KJV_FILE  = f"verse_content/{BOOK_NAME}_kjv.csv"
+HITS_FILE = f"{BOOK_NAME}_total_hits_dataforseo_repaired.csv"
+OUT_FILE  = f"{BOOK_NAME}_sorted_by_unpopularity2.csv"
 
 # call it like this :
-# python .\merge_and_sort_proverbs2.py
+# python .\merge_and_sort_generic.py
 
 def load_kjv(filepath):
     """
