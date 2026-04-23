@@ -34,6 +34,24 @@ class Book:
             },
         }
 
+# untested
+def to_d3_hierarchy(books_dict, root_name="Bible"):
+    children = []
+    for book_key, book in books_dict.items():
+        ch_map = book.get("chapter_verse_hit_total", {}) or {}
+        chap_children = [
+            {"name": f"Chapter {chap}", "size": int(hits)}
+            for chap, hits in sorted(ch_map.items(), key=lambda kv: int(kv[0]))
+        ]
+        children.append({
+            "name": book.get("bookName") or book_key,
+            "children": chap_children,
+            "book_verse_hit_total": int(book.get("book_verse_hit_total", 0))
+        })
+
+    children.sort(key=lambda b: b.get("book_verse_hit_total", 0), reverse=True)
+    return {"name": root_name, "children": children}
+
 
 def main():
 

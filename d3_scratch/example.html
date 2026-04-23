@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>D3 Hierarchical Bar Chart (Standalone)</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 16px; }
+  .hint { color: #555; margin-bottom: 12px; }
+  svg { max-width: 100%; height: auto; }
+  .x-axis text { font-size: 10px; }
+  .y-axis line { shape-rendering: crispEdges; }
+</style>
+
+<div class="hint">
+  Click a blue bar to drill down. Click the background to go back up.
+</div>
+
+<div id="chart"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<script>
+const data = {
+  name: "flare",
+  children: [
+    {
+      name: "analytics",
+      children: [
+        {
+          name: "cluster",
+          children: [
+            { name: "AgglomerativeCluster", size: 3938 },
+            { name: "CommunityStructure", size: 3812 }
+          ]
+        }
+      ]
+    },
+    {
+      name: "animate",
+      children: [
+        { name: "Easing", size: 17010 }
+      ]
+    }
+  ]
+};
+
+const width = 900;
+const marginTop = 30;
+const marginRight = 30;
+const marginLeft = 120;
+const barStep = 27;
+
+const root = d3.hierarchy(data)
+  .sum(d => d.size || 0)
+  .sort((a, b) => b.value - a.value);
+
+const height = 300;
+
+const x = d3.scaleLinear()
+  .domain([0, root.value])
+  .range([marginLeft, width - marginRight]);
+
+const svg = d3.create("svg")
+  .attr("viewBox", [0, 0, width, height]);
+
+const g = svg.append("g")
+  .attr("transform", `translate(0,${marginTop})`);
+
+g.selectAll("rect")
+  .data(root.children)
+  .join("rect")
+  .attr("x", x(0))
+  .attr("y", (d, i) => i * barStep)
+  .attr("width", d => x(d.value) - x(0))
+  .attr("height", barStep - 2)
+  .attr("fill", "steelblue");
+
+g.selectAll("text")
+  .data(root.children)
+  .join("text")
+  .attr("x", marginLeft - 6)
+  .attr("y", (d, i) => i * barStep + barStep / 2)
+  .attr("dy", "0.35em")
+  .attr("text-anchor", "end")
+  .text(d => d.data.name);
+
+document.getElementById("chart").appendChild(svg.node());
+</script>
