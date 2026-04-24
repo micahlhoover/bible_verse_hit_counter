@@ -16,7 +16,7 @@ except ImportError:
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Mark"
+BOOK_NAME = "Acts"
 
 # PROVERBS_VERSES_PER_CHAPTER: List[int] = [
 #     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
@@ -26,23 +26,36 @@ BOOK_NAME = "Mark"
 
 #MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
 
-MARK_VERSES_PER_CHAPTER: List[int] = [
-    45,  # Chapter 1
-    28,  # Chapter 2
-    35,  # Chapter 3
-    41,  # Chapter 4
-    43,  # Chapter 5
-    56,  # Chapter 6
-    37,  # Chapter 7
-    38,  # Chapter 8
-    50,  # Chapter 9
-    52,  # Chapter 10
-    33,  # Chapter 11
-    44,  # Chapter 12
-    37,  # Chapter 13
-    72,  # Chapter 14
-    47,  # Chapter 15
-    20   # Chapter 16 (includes verses 9-20)
+#Acts
+VERSES_PER_CHAPTER: List[int] = [
+    26,  # Chapter 1
+    47,  # Chapter 2
+    26,  # Chapter 3
+    37,  # Chapter 4
+    42,  # Chapter 5
+    15,  # Chapter 6
+    60,  # Chapter 7
+    40,  # Chapter 8
+    43,  # Chapter 9
+    48,  # Chapter 10
+    30,  # Chapter 11
+    25,  # Chapter 12
+    52,  # Chapter 13
+    28,  # Chapter 14
+    41,  # Chapter 15
+    40,  # Chapter 16
+    34,  # Chapter 17
+    28,  # Chapter 18
+    41,  # Chapter 19
+    38,  # Chapter 20
+    40,  # Chapter 21
+    30,  # Chapter 22
+    35,  # Chapter 23
+    27,  # Chapter 24
+    27,  # Chapter 25
+    32,  # Chapter 26
+    44,  # Chapter 27
+    31   # Chapter 28
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
@@ -51,7 +64,7 @@ BASE_URL = "https://bible-api.com"  # [5](https://bible-api.com/)
 
 def iter_refs() -> List[Tuple[int, int]]:
     refs = []
-    for ch, vc in enumerate(MARK_VERSES_PER_CHAPTER, start=1):
+    for ch, vc in enumerate(VERSES_PER_CHAPTER, start=1):
         for v in range(1, vc + 1):
             refs.append((ch, v))
     return refs

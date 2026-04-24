@@ -1,6 +1,6 @@
 import csv
 
-BOOK_NAME = "Mark"
+BOOK_NAME = "Philippians"
 KJV_FILE  = f"verse_content/{BOOK_NAME}_kjv.csv"
 HITS_FILE = f"{BOOK_NAME}_total_hits_dataforseo_repaired.csv"
 OUT_FILE  = f"{BOOK_NAME}_sorted_by_unpopularity2.csv"

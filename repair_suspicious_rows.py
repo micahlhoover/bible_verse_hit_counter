@@ -8,7 +8,7 @@ from typing import Dict, List
 import verse_indexer_seo2 as indexer
 
 #run it like this:
-#   python repair_suspicious_rows.py proverbs_hits_dataforseo.csv
+#   python repair_suspicious_rows.py proverbs_total_hits_dataforseo.csv
 
 def infer_book_from_filename(path: str) -> str:
     name = os.path.basename(path).lower()

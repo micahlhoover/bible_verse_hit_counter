@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Mark"
+BOOK_NAME = "Acts"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -60,28 +60,19 @@ RELATIVE_DIVISOR = 50
     # }Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
     # Can you create a similar python dict for Matthew and show me the code ?
 
-
-
-# Mark
+# Acts
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 45,
-    2: 28,
-    3: 35,
-    4: 41,
-    5: 43,
-    6: 56,
-    7: 37,
-    8: 38,
-    9: 50,
-    10: 52,
-    11: 33,
-    12: 44,
-    13: 37,
-    14: 72,
-    15: 47,
-    16: 20
+    1: 26,  2: 47,  3: 26,  4: 37,  5: 42,  6: 15,  7: 60,
+    8: 40,  9: 43, 10: 48, 11: 30, 12: 25, 13: 52, 14: 28,
+    15: 41, 16: 40, 17: 34, 18: 28, 19: 41, 20: 38, 21: 40,
+    22: 30, 23: 35, 24: 27, 25: 27, 26: 32, 27: 44, 28: 31
 }
 
+
+# Philippians
+# VERSES_PER_CHAPTER: Dict[int, int] = {
+#     1: 30, 2: 30, 3: 21, 4: 23
+# }
 
 def iter_refs() -> List[Tuple[int, int]]:
     refs: List[Tuple[int, int]] = []
