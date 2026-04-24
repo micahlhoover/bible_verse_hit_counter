@@ -35,7 +35,8 @@
 10)	python merge_and_sort_generic.py
 11) put XXXXX_total_hits_dataforseo_repaired.csv into archive
 12) put XXXXX_sorted_by_unpopularity2.csv into done
-13) python .\pull_meta.py	(pulls from archive)
+13) python .\pull_d3.py	(pulls from archive)
+14) take the books_d3.json file and paste it into the d3_scratch\bible_hits_hierarchical_bar_chart.html file, replacing everything after "data = " on that line.
 
 I've got a python script to snatch every verse in the book of Matthew like this :MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]Such that chapter 1 has one verse, so it indexes from 1 to 25, and for chapter 2 1 to 23 and so on.Now I need to pull Mark.Can you create such a structure for me ?
 
