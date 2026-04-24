@@ -15,6 +15,25 @@ import csv
 from typing import Dict, List
 
 path_to_raw_canonical_order_verse_totals = "./archive"
+
+
+BIBLE_CANON_ORDER = [
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
+    "Joshua", "Judges", "Ruth",
+    "1 Samuel", "2 Samuel", "1 Kings", "2 Kings",
+    "1 Chronicles", "2 Chronicles", "Ezra", "Nehemiah", "Esther",
+    "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon",
+    "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel",
+    "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum",
+    "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi",
+    "Matthew", "Mark", "Luke", "John", "Acts",
+    "Romans", "1 Corinthians", "2 Corinthians", "Galations",
+    "Ephesians", "Philippians", "Colossians", "1 Thessalonians",
+    "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus",
+    "Philemon", "Hebrews", "James", "1 Peter", "2 Peter",
+    "1 John", "2 John", "3 John", "Jude", "Revelation"
+]
+
  
 class Book:
     # Constructor method to initialize instance attributes
@@ -67,8 +86,21 @@ def to_d3_hierarchy(books_dict, root_name="Bible"):
 def main():
 
     print(f"path to files : {path_to_raw_canonical_order_verse_totals}")
-    files = [f.name for f in Path(path_to_raw_canonical_order_verse_totals).iterdir() if f.is_file()]
+
+    files = []
+
+    for bible_book_name in BIBLE_CANON_ORDER :
+        # e.g. Matthew_total_hits_dataforseo_repaired.csv
+        file_candidate = f"{bible_book_name}_total_hits_dataforseo_repaired.csv"
+        if Path(f"{path_to_raw_canonical_order_verse_totals}/{file_candidate}").exists():
+            files.append(file_candidate)
+            print(f"appending : {file_candidate}")
+
+    #files = [f.name for f in Path(path_to_raw_canonical_order_verse_totals).iterdir() if f.is_file()]
+    
     print(f"files : {files}")
+
+    print(f"Books of the bible count : {len(BIBLE_CANON_ORDER)}")
 
     books : Dict[str, Book] = {}
 
@@ -116,7 +148,7 @@ def main():
     with open("books_d3.json", "w", encoding="utf-8") as f:
         json.dump(d3_ready, f, indent=2, ensure_ascii=False)
 
-    print('Paste this into the "data = " section of ./d3_scratch/bible_hits_hierarchical_bar_chart.html')
+    print('Paste books_d3.json into the "data = " section of ./d3_scratch/bible_hits_hierarchical_bar_chart.html')
 
 
 if __name__ == "__main__":
