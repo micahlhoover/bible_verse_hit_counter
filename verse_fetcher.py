@@ -16,7 +16,7 @@ except ImportError:
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Acts"
+BOOK_NAME = "Luke"
 
 # PROVERBS_VERSES_PER_CHAPTER: List[int] = [
 #     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
@@ -26,36 +26,32 @@ BOOK_NAME = "Acts"
 
 #MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
 
-#Acts
+#Luke
 VERSES_PER_CHAPTER: List[int] = [
-    26,  # Chapter 1
-    47,  # Chapter 2
-    26,  # Chapter 3
-    37,  # Chapter 4
-    42,  # Chapter 5
-    15,  # Chapter 6
-    60,  # Chapter 7
-    40,  # Chapter 8
-    43,  # Chapter 9
-    48,  # Chapter 10
-    30,  # Chapter 11
-    25,  # Chapter 12
-    52,  # Chapter 13
-    28,  # Chapter 14
-    41,  # Chapter 15
-    40,  # Chapter 16
-    34,  # Chapter 17
-    28,  # Chapter 18
-    41,  # Chapter 19
-    38,  # Chapter 20
-    40,  # Chapter 21
-    30,  # Chapter 22
-    35,  # Chapter 23
-    27,  # Chapter 24
-    27,  # Chapter 25
-    32,  # Chapter 26
-    44,  # Chapter 27
-    31   # Chapter 28
+    80,  # Chapter 1
+    52,  # Chapter 2
+    38,  # Chapter 3
+    44,  # Chapter 4
+    39,  # Chapter 5
+    49,  # Chapter 6
+    50,  # Chapter 7
+    56,  # Chapter 8
+    62,  # Chapter 9
+    42,  # Chapter 10
+    54,  # Chapter 11
+    59,  # Chapter 12
+    35,  # Chapter 13
+    35,  # Chapter 14
+    32,  # Chapter 15
+    31,  # Chapter 16
+    37,  # Chapter 17
+    43,  # Chapter 18
+    48,  # Chapter 19
+    47,  # Chapter 20
+    38,  # Chapter 21
+    71,  # Chapter 22
+    56,  # Chapter 23
+    53   # Chapter 24
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)

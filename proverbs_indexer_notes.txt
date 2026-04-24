@@ -5,8 +5,8 @@
 1)	cd C:\Users\micah\OneDrive\Desktop\bible_verse_hit_counter
 2)  modify verse_indexer_seo3_generic.py
 		modify BOOK_NAME
-		get chater / verse structure
-			I'm trying to get the web count totals for each verse in the book of Matthew using a search API.The python struct I used to keep track of how far to go into each chapter of Proverbs looked like this :VERSES_PER_CHAPTER: Dict[int, int] = {
+		get chapter / verse structure
+			I'm trying to get the web count totals for each verse in a certain book of the Bible using a search API. The python struct I used to keep track of how far to go into each chapter of Proverbs looked like this :VERSES_PER_CHAPTER: Dict[int, int] = {
 				1: 33,  2: 22,  3: 35,  4: 27,  5: 23,  6: 35,  7: 27,  8: 36,
 				9: 18, 10: 32, 11: 31, 12: 28, 13: 25, 14: 35, 15: 33, 16: 33,
 				17: 28, 18: 24, 19: 29, 20: 30, 21: 31, 22: 29, 23: 35, 24: 34,
