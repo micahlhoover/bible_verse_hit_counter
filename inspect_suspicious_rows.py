@@ -6,7 +6,8 @@ import os
 from typing import Dict
 
 # Import your existing logic (no execution side-effects)
-import verse_indexer_seo2 as indexer
+#import verse_indexer_seo2 as indexer
+import verse_indexer_seo3_generic as indexer
 
 #run it like this:
 #   python .\repair_suspicious_rows.py proverbs_total_hits_dataforseo.csv
@@ -14,10 +15,13 @@ import verse_indexer_seo2 as indexer
 
 def infer_book_from_filename(path: str) -> str:
     print(f"Inferring from os.path.basename(path) : {os.path.basename(path)}")
-    name = os.path.basename(path).lower()
-    if "proverbs" in name:
-        return "Proverbs"
-    return "Unknown"
+    #name = os.path.basename(path).lower()
+    name = os.path.basename(path).split("_")[0]
+    print(f"Inferred name : {name}")
+    #if "proverbs" in name:
+    #    return "Proverbs"
+    #return "Unknown"
+    return name
 
 
 def is_suspicious(row: Dict[str, str]) -> bool:
@@ -49,6 +53,7 @@ def main(csv_path: str):
 
         count = 0
         for row in reader:
+            # print(f"row: {row}")
             if is_suspicious(row):
                 count += 1
                 ch = row["chapter"]

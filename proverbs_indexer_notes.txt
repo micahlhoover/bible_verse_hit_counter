@@ -41,7 +41,106 @@
 I've got a python script to snatch every verse in the book of Matthew like this :MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]Such that chapter 1 has one verse, so it indexes from 1 to 25, and for chapter 2 1 to 23 and so on.Now I need to pull Mark.Can you create such a structure for me ?
 
 
-
+Repair failure :
+	1) fix it so repaired verses are accurate				DONE (needs testing)
+	2) make a list of the verses that got repaired			DONE 
+		Acts 
+			Acts 3:18 | retry=True | initial=134 | final=10200000 | has_result=True		DONE	SAME
+			Acts 9:37 | retry=True | initial=122 | final=1160000 | has_result=True		2880000
+			Acts 15:35 | retry=True | initial=782 | final=1780000 | has_result=True		1790000		was 1800000
+			Acts 17:19 | retry=True | initial=2360 | final=12600000 | has_result=True	26400000	waay off
+			Acts 19:6 | retry=True | initial=421 | final=4250000 | has_result=True		4160000
+			Acts 19:18 | retry=True | initial=890 | final=2660000 | has_result=True		close
+			Acts 19:40 | retry=True | initial=122 | final=3110000 | has_result=True		close
+			Acts 25:14 | retry=True | initial=115 | final=1130000 | has_result=True		close
+			Acts 27:16 | retry=True | initial=128 | final=559000 | has_result=True		563000	close
+		Luke 
+			Luke 1:67 | retry=True | initial=125 | final=970000 | has_result=True	DONE		same	358000
+			Luke 1:74 | retry=True | initial=121 | final=498000 | has_result=True	281000		close
+			Luke 2:24 | retry=True | initial=2760 | final=5760000 | has_result=True		5740000		same
+			Luke 2:40 | retry=True | initial=128 | final=2310000 | has_result=True		2250000		same
+			Luke 5:1 | retry=True | initial=135 | final=17100000 | has_result=True		17100000	same
+			Luke 6:26 | retry=True | initial=130 | final=2940000 | has_result=True		
+			Luke 6:31 | retry=True | initial=1050 | final=1420000 | has_result=True
+			Luke 7:49 | retry=True | initial=584 | final=735000 | has_result=True
+			Luke 8:23 | retry=True | initial=1890 | final=3690000 | has_result=True
+			Luke 9:7 | retry=True | initial=2730 | final=11400000 | has_result=True
+			Luke 9:37 | retry=True | initial=689 | final=783000 | has_result=True
+			Luke 9:43 | retry=True | initial=494 | final=726000 | has_result=True
+			Luke 12:7 | retry=True | initial=130 | final=4710000 | has_result=True
+			Luke 12:33 | retry=True | initial=1350 | final=1830000 | has_result=True
+			Luke 15:28 | retry=True | initial=131 | final=2310000 | has_result=True
+			Luke 16:11 | retry=True | initial=129 | final=3520000 | has_result=True
+			Luke 22:31 | retry=True | initial=135 | final=1220000 | has_result=True
+			Luke 23:14 | retry=True | initial=73 | final=1560000 | has_result=True
+		Mark 
+			Mark 1:22 | retry=True | initial=103 | final=35300000 | has_result=True		35000000	very close
+			Mark 2:22 | retry=True | initial=0 | final=23500000 | has_result=True		23200000		close
+			Mark 3:20 | retry=True | initial=134 | final=26600000 | has_result=True		26000000		close 
+			Mark 6:54 | retry=True | initial=124 | final=7460000 | has_result=True		
+			Mark 10:31 | retry=True | initial=135 | final=22400000 | has_result=True
+			Mark 10:33 | retry=True | initial=133 | final=11600000 | has_result=True
+			Mark 13:24 | retry=True | initial=132 | final=12100000 | has_result=True
+			Mark 14:9 | retry=True | initial=124 | final=7490000 | has_result=True
+			Mark 14:39 | retry=True | initial=3720 | final=5430000 | has_result=True
+			Mark 15:17 | retry=True | initial=9230 | final=29300000 | has_result=True
+		Matthew 
+			Matthew 4:23 | retry=False | initial=6400000 | final=6400000 | has_result=False			about 10% off	7030000
+			Matthew 6:12 | retry=False | initial=13800000 | final=13800000 | has_result=False		13500000
+			Matthew 6:33 | retry=False | initial=10500000 | final=10500000 | has_result=False		14300000		40% off
+			Matthew 7:7 | retry=False | initial=14100000 | final=14100000 | has_result=False		27500000		DIFFERENT !!
+			Matthew 21:15 | retry=False | initial=3290000 | final=3290000 | has_result=False		2770000		near
+			Matthew 25:31 | retry=False | initial=2630000 | final=2630000 | has_result=False		2580000		very close
+			Matthew 26:30 | retry=False | initial=4730000 | final=4730000 | has_result=False		2340000		DIFFERENT !!
+		Philippians 
+			Philippians 3:19 | retry=True | initial=322 | final=1120000 | has_result=True		very close	1080000
+			Philippians 4:5 | retry=True | initial=0 | final=0 | has_result=False				like half :(
+			Philippians 4:6 | retry=True | initial=0 | final=7060000 | has_result=True			close 	7060000
+		Proverbs <-- might be fine, depending on the bug
+			proverbs 1:23 | retry=True | initial=0 | final=2240000 | has_result=True
+			proverbs 2:22 | retry=True | initial=132 | final=902000 | has_result=True
+			proverbs 4:9 | retry=True | initial=132 | final=2500000 | has_result=True
+			proverbs 5:12 | retry=True | initial=892 | final=2340000 | has_result=True
+			proverbs 6:28 | retry=True | initial=312 | final=369000 | has_result=True
+			proverbs 10:4 | retry=True | initial=133 | final=1320000 | has_result=True
+			proverbs 10:10 | retry=True | initial=0 | final=2940000 | has_result=True			very close		2680000
+			proverbs 10:27 | retry=True | initial=133 | final=1200000 | has_result=True
+			proverbs 11:12 | retry=True | initial=133 | final=8990000 | has_result=True
+			proverbs 12:1 | retry=True | initial=130 | final=3940000 | has_result=True
+			proverbs 12:28 | retry=True | initial=0 | final=485000 | has_result=True
+			proverbs 14:20 | retry=True | initial=132 | final=501000 | has_result=True
+			proverbs 18:7 | retry=True | initial=0 | final=377000 | has_result=True
+			proverbs 19:6 | retry=True | initial=0 | final=730000 | has_result=True
+			proverbs 19:15 | retry=True | initial=0 | final=384000 | has_result=True
+			proverbs 19:18 | retry=True | initial=0 | final=386000 | has_result=True
+			proverbs 19:19 | retry=True | initial=0 | final=0 | has_result=False
+			proverbs 19:20 | retry=True | initial=0 | final=0 | has_result=False
+			proverbs 19:21 | retry=True | initial=0 | final=0 | has_result=False
+			proverbs 19:22 | retry=True | initial=0 | final=0 | has_result=False
+			proverbs 19:23 | retry=True | initial=0 | final=0 | has_result=False
+			proverbs 20:4 | retry=True | initial=0 | final=595000 | has_result=True
+			proverbs 20:15 | retry=True | initial=0 | final=400000 | has_result=True
+			proverbs 21:2 | retry=True | initial=0 | final=600000 | has_result=True
+			proverbs 21:6 | retry=True | initial=0 | final=376000 | has_result=True
+			proverbs 21:15 | retry=True | initial=0 | final=381000 | has_result=True
+			proverbs 22:2 | retry=True | initial=0 | final=567000 | has_result=True
+			proverbs 23:1 | retry=True | initial=0 | final=1450000 | has_result=True
+			proverbs 23:4 | retry=True | initial=0 | final=1160000 | has_result=True
+			proverbs 23:21 | retry=True | initial=0 | final=288000 | has_result=True
+			proverbs 23:24 | retry=True | initial=0 | final=3870000 | has_result=True
+			proverbs 23:31 | retry=True | initial=0 | final=246000 | has_result=True
+			proverbs 26:21 | retry=True | initial=0 | final=139000 | has_result=True
+			proverbs 26:28 | retry=True | initial=0 | final=1310000 | has_result=True
+			proverbs 27:5 | retry=True | initial=0 | final=369000 | has_result=True
+			proverbs 27:15 | retry=True | initial=0 | final=178000 | has_result=True
+			proverbs 27:17 | retry=True | initial=0 | final=1140000 | has_result=True
+			proverbs 27:19 | retry=True | initial=0 | final=307000 | has_result=True
+			proverbs 28:8 | retry=True | initial=0 | final=355000 | has_result=True
+			proverbs 28:10 | retry=True | initial=0 | final=280000 | has_result=True
+			proverbs 31:22 | retry=True | initial=0 | final=479000 | has_result=True
+			proverbs 31:23 | retry=True | initial=0 | final=149000 | has_result=True
+			proverbs 31:30 | retry=True | initial=134 | final=616000 | has_result=True
+	3) inspect the repair verse thing later			DONE 
 
 Categories
 	hard to swallow pills
