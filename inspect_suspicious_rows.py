@@ -13,6 +13,7 @@ import verse_indexer_seo2 as indexer
 
 
 def infer_book_from_filename(path: str) -> str:
+    print(f"Inferring from os.path.basename(path) : {os.path.basename(path)}")
     name = os.path.basename(path).lower()
     if "proverbs" in name:
         return "Proverbs"
