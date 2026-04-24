@@ -1,7 +1,8 @@
 
 
 #   run it like this :
-#   python pull_meta.py
+#   python pull_d3.py
+#       (this is a refactored pull_meta.py)
 
 #   Get every book in ./archive
 #   Gather the book TOTAL hits
@@ -32,6 +33,36 @@ class Book:
                 str(k): v for k, v in self.chapter_verse_hit_total.items()
             },
         }
+
+
+def to_d3_hierarchy(books_dict, root_name="Bible"):
+    children = []
+
+    for book_key, book in books_dict.items():
+        book_verse_total = int(book.book_verse_hit_total)
+
+        # ✅ THIS is the chapter map
+        ch_map = book.chapter_verse_hit_total or {}
+
+        chap_children = [
+            {
+                "name": f"Chapter {chap}",
+                "size": int(hits)
+            }
+            for chap, hits in sorted(ch_map.items(), key=lambda kv: int(kv[0]))
+        ]
+
+        children.append({
+            "name": book.bookName or book_key,
+            "children": chap_children,
+            "book_verse_hit_total": book_verse_total
+        })
+
+    # ✅ No sorting → preserves canonical input order
+    return {
+        "name": root_name,
+        "children": children
+    }
 
 def main():
 
@@ -80,24 +111,14 @@ def main():
             print(f"total verses : {books[key].book_verse_hit_total}")
             print(f"Chapter 1 of {key} has {books[key].chapter_verse_hit_total[1]} many web search hits")
 
-
-
+    d3_ready = to_d3_hierarchy(books)
     
-    json_ready = {
-        book_key: book.to_dict()
-        for book_key, book in books.items()
-    }
+    with open("books_d3.json", "w", encoding="utf-8") as f:
+        json.dump(d3_ready, f, indent=2, ensure_ascii=False)
 
-
-    with open("books_meta.json", "w", encoding="utf-8") as f:
-        json.dump(json_ready, f, indent=2, ensure_ascii=False)
-
-
+    print('Paste this into the "data = " section of ./d3_scratch/bible_hits_hierarchical_bar_chart.html')
 
 
 if __name__ == "__main__":
-    # if len(sys.argv) != 2:
-    #     print("Usage: python repair_suspicious_rows.py <csv_file>")
-    #     sys.exit(1)
 
     main()
