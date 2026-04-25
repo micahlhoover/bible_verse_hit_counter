@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "John"
+BOOK_NAME = "1 Corinthians"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -60,11 +60,24 @@ RELATIVE_DIVISOR = 50
     # }Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
     # Can you create a similar python dict for Matthew and show me the code ?
 
-# John
+# 1 Corinthians
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 51,  2: 25,  3: 36,  4: 54,  5: 47,  6: 71,  7: 53,  8: 59,
-    9: 41, 10: 42, 11: 57, 12: 50, 13: 38, 14: 31, 15: 27, 16: 33,
-    17: 26, 18: 40, 19: 42, 20: 31, 21: 25
+    1: 31,   # Chapter 1
+    2: 16,   # Chapter 2
+    3: 23,   # Chapter 3
+    4: 21,   # Chapter 4
+    5: 13,   # Chapter 5
+    6: 20,   # Chapter 6
+    7: 40,   # Chapter 7
+    8: 13,   # Chapter 8
+    9: 27,   # Chapter 9
+    10: 33,  # Chapter 10
+    11: 34,  # Chapter 11
+    12: 31,  # Chapter 12
+    13: 13,  # Chapter 13 (the "love" chapter)
+    14: 40,  # Chapter 14
+    15: 58,  # Chapter 15 (resurrection chapter)
+    16: 24   # Chapter 16
 }
 
 

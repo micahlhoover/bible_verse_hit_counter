@@ -16,7 +16,7 @@ except ImportError:
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "John"
+BOOK_NAME = "1 Corinthians"
 
 # PROVERBS_VERSES_PER_CHAPTER: List[int] = [
 #     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
@@ -26,29 +26,24 @@ BOOK_NAME = "John"
 
 #MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
 
-#John
+# 1 Corinthians
 VERSES_PER_CHAPTER: List[int] = [
-    51,  # Chapter 1
-    25,  # Chapter 2
-    36,  # Chapter 3
-    54,  # Chapter 4
-    47,  # Chapter 5
-    71,  # Chapter 6
-    53,  # Chapter 7
-    59,  # Chapter 8
-    41,  # Chapter 9
-    42,  # Chapter 10
-    57,  # Chapter 11
-    50,  # Chapter 12
-    38,  # Chapter 13
-    31,  # Chapter 14
-    27,  # Chapter 15
-    33,  # Chapter 16
-    26,  # Chapter 17
-    40,  # Chapter 18
-    42,  # Chapter 19
-    31,  # Chapter 20
-    25   # Chapter 21
+    31,  # Chapter 1
+    16,  # Chapter 2
+    23,  # Chapter 3
+    21,  # Chapter 4
+    13,  # Chapter 5
+    20,  # Chapter 6
+    40,  # Chapter 7
+    13,  # Chapter 8
+    27,  # Chapter 9
+    33,  # Chapter 10
+    34,  # Chapter 11
+    31,  # Chapter 12
+    13,  # Chapter 13
+    40,  # Chapter 14
+    58,  # Chapter 15
+    24   # Chapter 16
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
