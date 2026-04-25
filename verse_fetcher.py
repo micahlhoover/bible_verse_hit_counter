@@ -16,7 +16,7 @@ except ImportError:
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Luke"
+BOOK_NAME = "John"
 
 # PROVERBS_VERSES_PER_CHAPTER: List[int] = [
 #     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
@@ -26,32 +26,29 @@ BOOK_NAME = "Luke"
 
 #MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
 
-#Luke
+#John
 VERSES_PER_CHAPTER: List[int] = [
-    80,  # Chapter 1
-    52,  # Chapter 2
-    38,  # Chapter 3
-    44,  # Chapter 4
-    39,  # Chapter 5
-    49,  # Chapter 6
-    50,  # Chapter 7
-    56,  # Chapter 8
-    62,  # Chapter 9
+    51,  # Chapter 1
+    25,  # Chapter 2
+    36,  # Chapter 3
+    54,  # Chapter 4
+    47,  # Chapter 5
+    71,  # Chapter 6
+    53,  # Chapter 7
+    59,  # Chapter 8
+    41,  # Chapter 9
     42,  # Chapter 10
-    54,  # Chapter 11
-    59,  # Chapter 12
-    35,  # Chapter 13
-    35,  # Chapter 14
-    32,  # Chapter 15
-    31,  # Chapter 16
-    37,  # Chapter 17
-    43,  # Chapter 18
-    48,  # Chapter 19
-    47,  # Chapter 20
-    38,  # Chapter 21
-    71,  # Chapter 22
-    56,  # Chapter 23
-    53   # Chapter 24
+    57,  # Chapter 11
+    50,  # Chapter 12
+    38,  # Chapter 13
+    31,  # Chapter 14
+    27,  # Chapter 15
+    33,  # Chapter 16
+    26,  # Chapter 17
+    40,  # Chapter 18
+    42,  # Chapter 19
+    31,  # Chapter 20
+    25   # Chapter 21
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)

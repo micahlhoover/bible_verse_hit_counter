@@ -129,7 +129,7 @@
           "size": 466000
         }
       ],
-      "book_verse_hit_total": 1181446700
+      "book_verse_hit_total": 1181266700
     },
     {
       "name": "Matthew",
@@ -247,7 +247,7 @@
           "size": 6720000
         }
       ],
-      "book_verse_hit_total": 10919104100
+      "book_verse_hit_total": 10933674100
     },
     {
       "name": "Mark",
@@ -317,7 +317,109 @@
           "size": 24200000
         }
       ],
-      "book_verse_hit_total": 30835005000
+      "book_verse_hit_total": 30833805000
+    },
+    {
+      "name": "Luke",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 913000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1320000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 945000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 750000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 1110000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 618000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 1530000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 692000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 303000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 2010000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 1010000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 916000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 3240000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 812000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 2200000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 1510000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 595000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 390000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 1190000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 1490000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 1680000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 101000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 857000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 263000
+        }
+      ],
+      "book_verse_hit_total": 6121545500
     },
     {
       "name": "Acts",
@@ -435,7 +537,7 @@
           "size": 8720000
         }
       ],
-      "book_verse_hit_total": 12942913000
+      "book_verse_hit_total": 12958512000
     },
     {
       "name": "Philippians",
@@ -457,7 +559,7 @@
           "size": 928000
         }
       ],
-      "book_verse_hit_total": 253653000
+      "book_verse_hit_total": 251353000
     }
   ]
 }

@@ -42,7 +42,8 @@ I've got a python script to snatch every verse in the book of Matthew like this 
 
 
 Repair failure :
-	1) fix it so repaired verses are accurate				DONE (needs testing)
+	1) fix it so repaired verses are accurate				DONE (TESTED)
+		from repair output : sending this query : 'John 3:1'
 	2) make a list of the verses that got repaired			DONE 
 		Acts 
 			Acts 3:18 | retry=True | initial=134 | final=10200000 | has_result=True		DONE	SAME

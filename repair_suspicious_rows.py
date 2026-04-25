@@ -48,6 +48,7 @@ def repair_row(row: Dict[str, str]) -> Dict[str, str]:
     query = row["query"]
 
     # recent_nonzero not meaningful here; pass empty list
+    print(f"sending this query : '{query}'")
     result = indexer.fetch_count_with_selective_retry(query, [])
 
     repaired = dict(row)

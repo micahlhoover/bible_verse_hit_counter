@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Luke"
+BOOK_NAME = "John"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -60,11 +60,11 @@ RELATIVE_DIVISOR = 50
     # }Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
     # Can you create a similar python dict for Matthew and show me the code ?
 
-# Luke
+# John
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 80,  2: 52,  3: 38,  4: 44,  5: 39,  6: 49,  7: 50,  8: 56,
-    9: 62, 10: 42, 11: 54, 12: 59, 13: 35, 14: 35, 15: 32, 16: 31,
-    17: 37, 18: 43, 19: 48, 20: 47, 21: 38, 22: 71, 23: 56, 24: 53
+    1: 51,  2: 25,  3: 36,  4: 54,  5: 47,  6: 71,  7: 53,  8: 59,
+    9: 41, 10: 42, 11: 57, 12: 50, 13: 38, 14: 31, 15: 27, 16: 33,
+    17: 26, 18: 40, 19: 42, 20: 31, 21: 25
 }
 
 
