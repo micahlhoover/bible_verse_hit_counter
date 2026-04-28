@@ -15,19 +15,20 @@
 			Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
 			Can you create a similar python dict for XXXXXXXX and show me the code ?
 3)	python ./verse_indexer_seo3_generic.py
-I'm trying to create a python array that contains the number of verses in each chapter like this one from Philippians :
-VERSES_PER_CHAPTER: List[int] = [
-	30,  # Chapter 1
-	30,  # Chapter 2
-	21,  # Chapter 3
-	23   # Chapter 4
-]
-But I want it for a different book of the Bible. Could you make a similar structure for me from the book of XXXX ?
+		I'm trying to create a python array that contains the number of verses in each chapter like this one from Philippians :
+		VERSES_PER_CHAPTER: List[int] = [
+			30,  # Chapter 1
+			30,  # Chapter 2
+			21,  # Chapter 3
+			23   # Chapter 4
+		]
+		But I want it for a different book of the Bible. Could you make a similar structure for me from the book of XXXX ?
 4)	modify verse_fetcher.py 
 5)	python ./verse_fetcher.py
 6)	python repair_suspicious_rows.py XXXXX_total_hits_dataforseo.csv
 	book name is inferred from filename
 	in theory you shouldn't have to adjust this
+	might need to put quotes around the file name if it has spaces
 7)	python .\inspect_suspicious_rows XXXXX_total_hits_dataforseo.csv
 	you should NOT have to re-repair, check the gaps
 8)	Modify BOOK_NAME in merge_and_sort_generic.py
