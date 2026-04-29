@@ -770,6 +770,124 @@
       "book_verse_hit_total": 1180741000
     },
     {
+      "name": "2 Corinthians",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 2820000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 2690000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 3330000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 2750000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 3440000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 1640000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 820000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 924000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 2120000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 2290000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 384000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 902000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 7450000
+        }
+      ],
+      "book_verse_hit_total": 972926000
+    },
+    {
+      "name": "Galations",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 711000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 810000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 935000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 384000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 384000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 764000
+        }
+      ],
+      "book_verse_hit_total": 359296000
+    },
+    {
+      "name": "Ephesians",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 1250000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1270000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 1650000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 1440000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 398000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 742000
+        }
+      ],
+      "book_verse_hit_total": 482342000
+    },
+    {
       "name": "Philippians",
       "children": [
         {
@@ -790,6 +908,72 @@
         }
       ],
       "book_verse_hit_total": 251353000
+    },
+    {
+      "name": "Colossians",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 1130000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 486000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 633000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 893000
+        }
+      ],
+      "book_verse_hit_total": 357494000
+    },
+    {
+      "name": "1 Thessalonians",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 2360000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 805000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 1180000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 759000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 378000
+        }
+      ],
+      "book_verse_hit_total": 163519000
+    },
+    {
+      "name": "2 Thessalonians",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 2050000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1100000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 922000
+        }
+      ],
+      "book_verse_hit_total": 105992000
     }
   ]
 }

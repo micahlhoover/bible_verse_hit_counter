@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "2 Thessalonians"
+BOOK_NAME = "2 Timothy"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -60,11 +60,11 @@ RELATIVE_DIVISOR = 50
     # }Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
     # Can you create a similar python dict for Matthew and show me the code ?
 
-# 2 Thessalonians
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 12,   # Chapter 1 has 12 verses
-    2: 17,   # Chapter 2 has 17 verses
-    3: 18    # Chapter 3 has 18 verses
+    1: 18,
+    2: 26,
+    3: 17,
+    4: 22
 }
 
 # Philippians
