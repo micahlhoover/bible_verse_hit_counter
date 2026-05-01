@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Hebrews"
+BOOK_NAME = "2 Peter"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -61,9 +61,9 @@ RELATIVE_DIVISOR = 50
     # Can you create a similar python dict for Matthew and show me the code ?
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 14,  2: 18,  3: 19,  4: 16,  5: 14,
-    6: 20,  7: 28,  8: 13,  9: 28, 10: 39,
-   11: 40, 12: 29, 13: 25
+    1: 21,  # Chapter 1
+    2: 22,  # Chapter 2
+    3: 18   # Chapter 3
 }
 
 # Philippians

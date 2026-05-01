@@ -34,9 +34,6 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Luke"
-OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
-
 # Polling / politeness
 POLL_INTERVAL_SECONDS = 2
 POLITE_DELAY_BETWEEN_VERSES = 0.05
