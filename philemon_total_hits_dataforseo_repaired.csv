@@ -1,0 +1,26 @@
+book,chapter,verse,query,retry_applied,raw_hit_count_initial,raw_hit_count_final,has_result_initial,items_count_initial,organic_items_count_initial,has_result_final,items_count_final,organic_items_count_final,log10_raw_hit_count,z_log10_raw_hit_count,minmax_log10_raw_hit_count,fusion_score
+Philemon,1,1,Philemon 1:1,False,2150000,2150000,True,9,9,True,9,9,6.332439,1.907604,0.824063,0.821611
+Philemon,1,2,Philemon 1:2,False,3330000,3330000,True,10,10,True,10,10,6.522444,2.563199,1.0,0.97088
+Philemon,1,3,Philemon 1:3,False,1100000,1100000,True,9,9,True,9,9,6.041393,0.90338,0.554567,0.592965
+Philemon,1,4,Philemon 1:4,False,2040000,2040000,True,9,9,True,9,9,6.30963,1.828906,0.802943,0.803693
+Philemon,1,5,Philemon 1:5,False,726000,726000,True,9,9,True,9,9,5.860937,0.280735,0.387472,0.451199
+Philemon,1,6,Philemon 1:6,False,715000,715000,True,8,8,True,8,8,5.854307,0.257857,0.381333,0.44599
+Philemon,1,7,Philemon 1:7,False,658000,658000,True,9,9,True,9,9,5.818227,0.133367,0.347924,0.417646
+Philemon,1,8,Philemon 1:8,False,634000,634000,True,9,9,True,9,9,5.80209,0.077689,0.332982,0.404969
+Philemon,1,9,Philemon 1:9,False,522000,522000,True,10,10,True,10,10,5.717671,-0.213589,0.254814,0.338649
+Philemon,1,10,Philemon 1:10,False,1410000,1410000,True,9,9,True,9,9,6.149219,1.275424,0.65441,0.677674
+Philemon,1,11,Philemon 1:11,False,502000,502000,True,10,10,True,10,10,5.700705,-0.272131,0.239104,0.32532
+Philemon,1,12,Philemon 1:12,False,489000,489000,True,9,9,True,9,9,5.68931,-0.311448,0.228553,0.316368
+Philemon,1,13,Philemon 1:13,False,1120000,1120000,True,9,9,True,9,9,6.049218,0.930381,0.561813,0.599113
+Philemon,1,14,Philemon 1:14,False,387000,387000,True,10,10,True,10,10,5.587712,-0.662,0.134478,0.236553
+Philemon,1,15,Philemon 1:15,False,448000,448000,True,9,9,True,9,9,5.651279,-0.442669,0.193338,0.286491
+Philemon,1,16,Philemon 1:16,False,392000,392000,True,10,10,True,10,10,5.593287,-0.642764,0.13964,0.240933
+Philemon,1,17,Philemon 1:17,False,374000,374000,True,10,10,True,10,10,5.572873,-0.713202,0.120737,0.224895
+Philemon,1,18,Philemon 1:18,False,377000,377000,True,10,10,True,10,10,5.576343,-0.70123,0.12395,0.227621
+Philemon,1,19,Philemon 1:19,False,369000,369000,True,10,10,True,10,10,5.567028,-0.73337,0.115325,0.220303
+Philemon,1,20,Philemon 1:20,False,373000,373000,True,10,10,True,10,10,5.57171,-0.717214,0.11966,0.223982
+Philemon,1,21,Philemon 1:21,False,372000,372000,True,9,9,True,9,9,5.570544,-0.721237,0.118581,0.223066
+Philemon,1,22,Philemon 1:22,False,352000,352000,True,10,10,True,10,10,5.546544,-0.804047,0.096358,0.204211
+Philemon,1,23,Philemon 1:23,False,317000,317000,True,10,10,True,10,10,5.501061,-0.960982,0.054242,0.16848
+Philemon,1,24,Philemon 1:24,False,277000,277000,True,10,10,True,10,10,5.442481,-1.163104,0.0,0.12246
+Philemon,1,25,Philemon 1:25,False,289000,289000,True,10,10,True,10,10,5.460899,-1.099555,0.017054,0.136929
