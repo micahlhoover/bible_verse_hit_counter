@@ -14,6 +14,7 @@
 			}
 			Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
 			Can you create a similar python dict for XXXXXXXX and show me the code ?
+			
 3)	python ./verse_indexer_seo3_generic.py
 		I'm trying to create a python array that contains the number of verses in each chapter like this one from Philippians :
 		VERSES_PER_CHAPTER: List[int] = [

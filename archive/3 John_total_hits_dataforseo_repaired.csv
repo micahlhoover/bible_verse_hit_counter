@@ -1,0 +1,15 @@
+book,chapter,verse,query,retry_applied,raw_hit_count_initial,raw_hit_count_final,has_result_initial,items_count_initial,organic_items_count_initial,has_result_final,items_count_final,organic_items_count_final,log10_raw_hit_count,z_log10_raw_hit_count,minmax_log10_raw_hit_count,fusion_score
+3 John,1,1,3 John 1:1,False,448000000,448000000,True,9,9,True,9,9,8.651278,0.943949,0.588051,0.61576
+3 John,1,2,3 John 1:2,False,1320000000,1320000000,True,7,7,True,7,7,9.120574,2.478349,1.0,0.965223
+3 John,1,3,3 John 1:3,False,513000000,513000000,True,10,10,True,10,10,8.710117,1.136329,0.6397,0.659575
+3 John,1,4,3 John 1:4,False,470000000,470000000,True,9,9,True,9,9,8.672098,1.012021,0.606327,0.631264
+3 John,1,5,3 John 1:5,False,256000000,256000000,True,9,9,True,9,9,8.40824,0.149318,0.374711,0.434781
+3 John,1,6,3 John 1:6,False,164000000,164000000,True,10,10,True,10,10,8.214844,-0.483006,0.204948,0.290768
+3 John,1,7,3 John 1:7,False,135000000,135000000,False,0,0,False,0,0,0.0,0.0,0.0,0.0
+3 John,1,8,3 John 1:8,False,152000000,152000000,True,10,10,True,10,10,8.181844,-0.590903,0.17598,0.266195
+3 John,1,9,3 John 1:9,False,122000000,122000000,True,9,9,True,9,9,8.08636,-0.903094,0.092164,0.195092
+3 John,1,10,3 John 1:10,False,184000000,184000000,True,10,10,True,10,10,8.264818,-0.319612,0.248815,0.327982
+3 John,1,11,3 John 1:11,False,112000000,112000000,True,9,9,True,9,9,8.049218,-1.024532,0.059561,0.167435
+3 John,1,12,3 John 1:12,False,190000000,190000000,True,9,9,True,9,9,8.278754,-0.274048,0.261048,0.338359
+3 John,1,13,3 John 1:13,False,149000000,149000000,True,10,10,True,10,10,8.173186,-0.619209,0.168381,0.259748
+3 John,1,14,3 John 1:14,False,95800000,95800000,True,8,8,True,8,8,7.981366,-1.246381,0.0,0.116908

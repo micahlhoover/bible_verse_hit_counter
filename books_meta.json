@@ -1,7 +1,135 @@
 {
+  "1 Corinthians": {
+    "bookName": "1 Corinthians",
+    "book_verse_hit_total": 1180741000,
+    "chapter_verse_hit_total": {
+      "1": 921000,
+      "2": 3250000,
+      "3": 3450000,
+      "4": 1270000,
+      "5": 2650000,
+      "6": 1080000,
+      "7": 181000,
+      "8": 1510000,
+      "9": 1020000,
+      "10": 383000,
+      "11": 259000,
+      "12": 1550000,
+      "13": 1990000,
+      "14": 307000,
+      "15": 662000,
+      "16": 987000
+    }
+  },
+  "1 John": {
+    "bookName": "1 John",
+    "book_verse_hit_total": 13668800000,
+    "chapter_verse_hit_total": {
+      "1": 192000000,
+      "2": 17200000,
+      "3": 23500000,
+      "4": 21800000,
+      "5": 21600000
+    }
+  },
+  "1 Peter": {
+    "bookName": "1 Peter",
+    "book_verse_hit_total": 8052700000,
+    "chapter_verse_hit_total": {
+      "1": 26200000,
+      "2": 14300000,
+      "3": 11000000,
+      "4": 19900000,
+      "5": 22300000
+    }
+  },
+  "1 Thessalonians": {
+    "bookName": "1 Thessalonians",
+    "book_verse_hit_total": 163519000,
+    "chapter_verse_hit_total": {
+      "1": 2360000,
+      "2": 805000,
+      "3": 1180000,
+      "4": 759000,
+      "5": 378000
+    }
+  },
+  "1 Timothy": {
+    "bookName": "1 Timothy",
+    "book_verse_hit_total": 1334950000,
+    "chapter_verse_hit_total": {
+      "1": 7630000,
+      "2": 6060000,
+      "3": 10100000,
+      "4": 5930000,
+      "5": 3470000,
+      "6": 1600000
+    }
+  },
+  "2 Corinthians": {
+    "bookName": "2 Corinthians",
+    "book_verse_hit_total": 972926000,
+    "chapter_verse_hit_total": {
+      "1": 2820000,
+      "2": 2690000,
+      "3": 3330000,
+      "4": 2750000,
+      "5": 3440000,
+      "6": 1640000,
+      "7": 820000,
+      "8": 924000,
+      "9": 2120000,
+      "10": 2290000,
+      "11": 384000,
+      "12": 902000,
+      "13": 7450000
+    }
+  },
+  "2 John": {
+    "bookName": "2 John",
+    "book_verse_hit_total": 4075000000,
+    "chapter_verse_hit_total": {
+      "1": 152000000
+    }
+  },
+  "2 Peter": {
+    "bookName": "2 Peter",
+    "book_verse_hit_total": 4709900000,
+    "chapter_verse_hit_total": {
+      "1": 44500000,
+      "2": 12900000,
+      "3": 25800000
+    }
+  },
+  "2 Thessalonians": {
+    "bookName": "2 Thessalonians",
+    "book_verse_hit_total": 105992000,
+    "chapter_verse_hit_total": {
+      "1": 2050000,
+      "2": 1100000,
+      "3": 922000
+    }
+  },
+  "2 Timothy": {
+    "bookName": "2 Timothy",
+    "book_verse_hit_total": 1072190000,
+    "chapter_verse_hit_total": {
+      "1": 7620000,
+      "2": 2660000,
+      "3": 4730000,
+      "4": 3130000
+    }
+  },
+  "3 John": {
+    "bookName": "3 John",
+    "book_verse_hit_total": 4310800000,
+    "chapter_verse_hit_total": {
+      "1": 95800000
+    }
+  },
   "Acts": {
     "bookName": "Acts",
-    "book_verse_hit_total": 12942913000,
+    "book_verse_hit_total": 12958512000,
     "chapter_verse_hit_total": {
       "1": 32500000,
       "2": 2400000,
@@ -33,9 +161,118 @@
       "28": 8720000
     }
   },
+  "Colossians": {
+    "bookName": "Colossians",
+    "book_verse_hit_total": 357494000,
+    "chapter_verse_hit_total": {
+      "1": 1130000,
+      "2": 486000,
+      "3": 633000,
+      "4": 893000
+    }
+  },
+  "Ephesians": {
+    "bookName": "Ephesians",
+    "book_verse_hit_total": 482342000,
+    "chapter_verse_hit_total": {
+      "1": 1250000,
+      "2": 1270000,
+      "3": 1650000,
+      "4": 1440000,
+      "5": 398000,
+      "6": 742000
+    }
+  },
+  "Galations": {
+    "bookName": "Galations",
+    "book_verse_hit_total": 359296000,
+    "chapter_verse_hit_total": {
+      "1": 711000,
+      "2": 810000,
+      "3": 935000,
+      "4": 384000,
+      "5": 384000,
+      "6": 764000
+    }
+  },
+  "James": {
+    "bookName": "James",
+    "book_verse_hit_total": 10398800000,
+    "chapter_verse_hit_total": {
+      "1": 55700000,
+      "2": 91700000,
+      "3": 19900000,
+      "4": 18800000,
+      "5": 21400000
+    }
+  },
+  "John": {
+    "bookName": "John",
+    "book_verse_hit_total": 38016277000,
+    "chapter_verse_hit_total": {
+      "1": 16300000,
+      "2": 149000000,
+      "3": 14000000,
+      "4": 7140000,
+      "5": 6840000,
+      "6": 817000,
+      "7": 6240000,
+      "8": 5800000,
+      "9": 10100000,
+      "10": 12500000,
+      "11": 12300000,
+      "12": 14300000,
+      "13": 6880000,
+      "14": 13600000,
+      "15": 17300000,
+      "16": 10500000,
+      "17": 14600000,
+      "18": 11700000,
+      "19": 5830000,
+      "20": 7480000,
+      "21": 19600000
+    }
+  },
+  "Jude": {
+    "bookName": "Jude",
+    "book_verse_hit_total": 228380000,
+    "chapter_verse_hit_total": {
+      "1": 1380000
+    }
+  },
+  "Luke": {
+    "bookName": "Luke",
+    "book_verse_hit_total": 6121545500,
+    "chapter_verse_hit_total": {
+      "1": 913000,
+      "2": 1320000,
+      "3": 945000,
+      "4": 750000,
+      "5": 1110000,
+      "6": 618000,
+      "7": 1530000,
+      "8": 692000,
+      "9": 303000,
+      "10": 2010000,
+      "11": 1010000,
+      "12": 916000,
+      "13": 3240000,
+      "14": 812000,
+      "15": 2200000,
+      "16": 1510000,
+      "17": 595000,
+      "18": 390000,
+      "19": 1190000,
+      "20": 1490000,
+      "21": 1680000,
+      "22": 101000,
+      "23": 857000,
+      "24": 263000
+    }
+  },
   "Mark": {
     "bookName": "Mark",
-    "book_verse_hit_total": 30835005000,
+    "book_verse_hit_total": 30833805000,
     "chapter_verse_hit_total": {
       "1": 18400000,
       "2": 20900000,
@@ -57,7 +294,7 @@
   },
   "Matthew": {
     "bookName": "Matthew",
-    "book_verse_hit_total": 10919104100,
+    "book_verse_hit_total": 10933674100,
     "chapter_verse_hit_total": {
       "1": 13100000,
       "2": 7310000,
@@ -91,7 +328,7 @@
   },
   "Philippians": {
     "bookName": "Philippians",
-    "book_verse_hit_total": 253653000,
+    "book_verse_hit_total": 251353000,
     "chapter_verse_hit_total": {
       "1": 617000,
       "2": 339000,
@@ -101,7 +338,7 @@
   },
   "Proverbs": {
     "bookName": "Proverbs",
-    "book_verse_hit_total": 1181446700,
+    "book_verse_hit_total": 1181266700,
     "chapter_verse_hit_total": {
       "1": 839000,
       "2": 908000,
@@ -134,6 +371,37 @@
       "29": 86700,
       "30": 336000,
       "31": 466000
+    }
+  },
+  "Romans": {
+    "bookName": "Romans",
+    "book_verse_hit_total": 2351287000,
+    "chapter_verse_hit_total": {
+      "1": 913000,
+      "2": 536000,
+      "3": 523000,
+      "4": 1150000,
+      "5": 4120000,
+      "6": 3590000,
+      "7": 1880000,
+      "8": 436000,
+      "9": 728000,
+      "10": 1050000,
+      "11": 544000,
+      "12": 9300000,
+      "13": 10300000,
+      "14": 5170000,
+      "15": 676000,
+      "16": 584000
+    }
+  },
+  "Titus": {
+    "bookName": "Titus",
+    "book_verse_hit_total": 250090000,
+    "chapter_verse_hit_total": {
+      "1": 3080000,
+      "2": 2170000,
+      "3": 2040000
     }
   }
 }
