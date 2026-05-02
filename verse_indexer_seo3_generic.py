@@ -31,7 +31,7 @@ POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 #GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Revelation"
+BOOK_NAME = "Genesis"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -61,10 +61,13 @@ RELATIVE_DIVISOR = 50
     # Can you create a similar python dict for Matthew and show me the code ?
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 20,  2: 29,  3: 22,  4: 11,  5: 14,  6: 17,
-    7: 17,  8: 13,  9: 21, 10: 11, 11: 19, 12: 17,
-    13: 18, 14: 20, 15: 8, 16: 21, 17: 18, 18: 24,
-    19: 21, 20: 15, 21: 27, 22: 21
+    1: 31, 2: 25, 3: 24, 4: 26,  5: 32, 6: 22, 7: 24, 8: 22,
+    9: 29, 10: 32, 11: 32, 12: 20, 13: 18, 14: 24, 15: 21, 16: 16,
+   17: 27, 18: 33, 19: 38, 20: 18, 21: 34, 22: 24, 23: 20, 24: 67,
+   25: 34, 26: 35, 27: 46, 28: 22, 29: 35, 30: 43, 31: 55, 32: 32,
+   33: 20, 34: 31, 35: 29, 36: 43, 37: 36, 38: 30, 39: 23, 40: 23,
+   41: 57, 42: 38, 43: 34, 44: 34, 45: 28, 46: 34, 47: 31, 48: 22,
+   49: 33, 50: 26
 }
 
 # Philippians
@@ -95,6 +98,7 @@ def post_task(query: str) -> str:
         "os": "windows"
     }]
 
+    # print(f"requesting SERP for this query : '{query}'")
     r = requests.post(
         POST_TASK_URL,
         json=payload,
