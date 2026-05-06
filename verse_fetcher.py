@@ -26,7 +26,8 @@ BOOK_NAME = "Genesis"
 
 #MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
 
-# Genesis
+from typing import List
+
 VERSES_PER_CHAPTER: List[int] = [
     31,  # Chapter 1
     25,  # Chapter 2
