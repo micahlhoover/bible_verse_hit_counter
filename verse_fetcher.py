@@ -12,73 +12,50 @@ try:
 except ImportError:
     tqdm = None
 
+from typing import List
+
+
 # run :
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Genesis"
-
-# PROVERBS_VERSES_PER_CHAPTER: List[int] = [
-#     33, 22, 35, 27, 23, 35, 27, 36, 18, 32,
-#     31, 28, 25, 35, 33, 33, 28, 24, 29, 30,
-#     31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31
-# ]
-
-#MATTHEW_VERSES_PER_CHAPTER: List[int] = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20]
-
-from typing import List
+BOOK_NAME = "Deuteronomy"
 
 VERSES_PER_CHAPTER: List[int] = [
-    31,  # Chapter 1
-    25,  # Chapter 2
-    24,  # Chapter 3
-    26,  # Chapter 4
-    32,  # Chapter 5
-    22,  # Chapter 6
-    24,  # Chapter 7
-    22,  # Chapter 8
+    46,  # Chapter 1
+    37,  # Chapter 2
+    29,  # Chapter 3
+    49,  # Chapter 4
+    33,  # Chapter 5
+    25,  # Chapter 6
+    26,  # Chapter 7
+    20,  # Chapter 8
     29,  # Chapter 9
-    32,  # Chapter 10
+    22,  # Chapter 10
     32,  # Chapter 11
-    20,  # Chapter 12
+    32,  # Chapter 12
     18,  # Chapter 13
-    24,  # Chapter 14
-    21,  # Chapter 15
-    16,  # Chapter 16
-    27,  # Chapter 17
-    33,  # Chapter 18
-    38,  # Chapter 19
-    18,  # Chapter 20
-    34,  # Chapter 21
-    24,  # Chapter 22
-    20,  # Chapter 23
-    67,  # Chapter 24
-    34,  # Chapter 25
-    35,  # Chapter 26
-    46,  # Chapter 27
-    22,  # Chapter 28
-    35,  # Chapter 29
-    43,  # Chapter 30
-    55,  # Chapter 31
-    32,  # Chapter 32
-    20,  # Chapter 33
-    31,  # Chapter 34
-    29,  # Chapter 35
-    43,  # Chapter 36
-    36,  # Chapter 37
-    30,  # Chapter 38
-    23,  # Chapter 39
-    23,  # Chapter 40
-    57,  # Chapter 41
-    38,  # Chapter 42
-    34,  # Chapter 43
-    34,  # Chapter 44
-    28,  # Chapter 45
-    34,  # Chapter 46
-    31,  # Chapter 47
-    22,  # Chapter 48
-    33,  # Chapter 49
-    26   # Chapter 50
+    29,  # Chapter 14
+    23,  # Chapter 15
+    22,  # Chapter 16
+    20,  # Chapter 17
+    22,  # Chapter 18
+    21,  # Chapter 19
+    20,  # Chapter 20
+    23,  # Chapter 21
+    30,  # Chapter 22
+    25,  # Chapter 23
+    22,  # Chapter 24
+    19,  # Chapter 25
+    19,  # Chapter 26
+    26,  # Chapter 27
+    69,  # Chapter 28
+    28,  # Chapter 29
+    20,  # Chapter 30
+    30,  # Chapter 31
+    52,  # Chapter 32
+    29,  # Chapter 33
+    12   # Chapter 34
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
