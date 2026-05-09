@@ -19,44 +19,37 @@ from typing import List
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Deuteronomy"
+BOOK_NAME = "2 Samuel"
+
 
 VERSES_PER_CHAPTER: List[int] = [
-    46,  # Chapter 1
-    37,  # Chapter 2
-    29,  # Chapter 3
-    49,  # Chapter 4
-    33,  # Chapter 5
-    25,  # Chapter 6
-    26,  # Chapter 7
-    20,  # Chapter 8
-    29,  # Chapter 9
-    22,  # Chapter 10
-    32,  # Chapter 11
-    32,  # Chapter 12
-    18,  # Chapter 13
-    29,  # Chapter 14
-    23,  # Chapter 15
-    22,  # Chapter 16
-    20,  # Chapter 17
-    22,  # Chapter 18
-    21,  # Chapter 19
-    20,  # Chapter 20
-    23,  # Chapter 21
-    30,  # Chapter 22
-    25,  # Chapter 23
-    22,  # Chapter 24
-    19,  # Chapter 25
-    19,  # Chapter 26
-    26,  # Chapter 27
-    69,  # Chapter 28
-    28,  # Chapter 29
-    20,  # Chapter 30
-    30,  # Chapter 31
-    52,  # Chapter 32
-    29,  # Chapter 33
-    12   # Chapter 34
+    27,  # Chapter 1
+    32,  # Chapter 2
+    39,  # Chapter 3
+    12,  # Chapter 4
+    25,  # Chapter 5
+    23,  # Chapter 6
+    29,  # Chapter 7
+    18,  # Chapter 8
+    13,  # Chapter 9
+    19,  # Chapter 10
+    27,  # Chapter 11
+    31,  # Chapter 12
+    39,  # Chapter 13
+    33,  # Chapter 14
+    37,  # Chapter 15
+    23,  # Chapter 16
+    29,  # Chapter 17
+    33,  # Chapter 18
+    43,  # Chapter 19
+    26,  # Chapter 20
+    22,  # Chapter 21
+    51,  # Chapter 22
+    39,  # Chapter 23
+    25   # Chapter 24
 ]
+
+
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
 BASE_URL = "https://bible-api.com"  # [5](https://bible-api.com/)
