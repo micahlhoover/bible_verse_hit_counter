@@ -19,36 +19,33 @@ from typing import List
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "2 Samuel"
+BOOK_NAME = "1 Kings"
 
 
 VERSES_PER_CHAPTER: List[int] = [
-    27,  # Chapter 1
-    32,  # Chapter 2
-    39,  # Chapter 3
-    12,  # Chapter 4
-    25,  # Chapter 5
-    23,  # Chapter 6
-    29,  # Chapter 7
-    18,  # Chapter 8
-    13,  # Chapter 9
-    19,  # Chapter 10
-    27,  # Chapter 11
-    31,  # Chapter 12
-    39,  # Chapter 13
-    33,  # Chapter 14
-    37,  # Chapter 15
-    23,  # Chapter 16
-    29,  # Chapter 17
-    33,  # Chapter 18
-    43,  # Chapter 19
-    26,  # Chapter 20
-    22,  # Chapter 21
-    51,  # Chapter 22
-    39,  # Chapter 23
-    25   # Chapter 24
+    53,  # Chapter 1
+    46,  # Chapter 2
+    28,  # Chapter 3
+    34,  # Chapter 4
+    18,  # Chapter 5
+    38,  # Chapter 6
+    51,  # Chapter 7
+    66,  # Chapter 8
+    28,  # Chapter 9
+    29,  # Chapter 10
+    43,  # Chapter 11
+    33,  # Chapter 12
+    34,  # Chapter 13
+    31,  # Chapter 14
+    34,  # Chapter 15
+    34,  # Chapter 16
+    24,  # Chapter 17
+    46,  # Chapter 18
+    21,  # Chapter 19
+    43,  # Chapter 20
+    29,  # Chapter 21
+    53   # Chapter 22
 ]
-
 
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
