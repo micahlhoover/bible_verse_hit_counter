@@ -19,32 +19,39 @@ from typing import List
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "1 Kings"
+BOOK_NAME = "1 Chronicles"
 
 
 VERSES_PER_CHAPTER: List[int] = [
-    53,  # Chapter 1
-    46,  # Chapter 2
-    28,  # Chapter 3
-    34,  # Chapter 4
-    18,  # Chapter 5
-    38,  # Chapter 6
-    51,  # Chapter 7
-    66,  # Chapter 8
-    28,  # Chapter 9
-    29,  # Chapter 10
-    43,  # Chapter 11
-    33,  # Chapter 12
-    34,  # Chapter 13
-    31,  # Chapter 14
-    34,  # Chapter 15
-    34,  # Chapter 16
-    24,  # Chapter 17
-    46,  # Chapter 18
-    21,  # Chapter 19
-    43,  # Chapter 20
-    29,  # Chapter 21
-    53   # Chapter 22
+    54,  # Chapter 1
+    55,  # Chapter 2
+    24,  # Chapter 3
+    43,  # Chapter 4
+    41,  # Chapter 5
+    66,  # Chapter 6
+    40,  # Chapter 7
+    40,  # Chapter 8
+    44,  # Chapter 9
+    14,  # Chapter 10
+    47,  # Chapter 11
+    41,  # Chapter 12
+    14,  # Chapter 13
+    17,  # Chapter 14
+    29,  # Chapter 15
+    43,  # Chapter 16
+    27,  # Chapter 17
+    17,  # Chapter 18
+    19,  # Chapter 19
+     8,  # Chapter 20
+    30,  # Chapter 21
+    19,  # Chapter 22
+    32,  # Chapter 23
+    31,  # Chapter 24
+    31,  # Chapter 25
+    32,  # Chapter 26
+    34,  # Chapter 27
+    21,  # Chapter 28
+    30   # Chapter 29
 ]
 
 
