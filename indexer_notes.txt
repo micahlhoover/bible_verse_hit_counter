@@ -2,6 +2,12 @@
 7,957 verses in the New Testament
 915 verses
 
+Might need to pull like this :
+	python .\verse_indexer_spot_search.py '\"Job 1:2\" Bible'
+		1.68B	vs 		734000
+	Job and Numbers are thrown waay way off because those tokens are used in different ways from the Bible
+
+
 1)	cd C:\Users\micah\OneDrive\Desktop\bible_verse_hit_counter
 2)  modify verse_indexer_seo3_generic.py
 		modify BOOK_NAME
