@@ -28,7 +28,7 @@ BASE_URL = "https://api.dataforseo.com/v3"
 POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "1 Chronicles"
+BOOK_NAME = "Esther"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -45,10 +45,16 @@ RELATIVE_DIVISOR = 50
 # ============================================================
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 54,  2: 55,  3: 24,  4: 43,  5: 41,  6: 66,  7: 40,  8: 40,
-    9: 44, 10: 14, 11: 47, 12: 41, 13: 14, 14: 17, 15: 29, 16: 43,
-   17: 27, 18: 17, 19: 19, 20:  8, 21: 30, 22: 19, 23: 32, 24: 31,
-   25: 31, 26: 32, 27: 34, 28: 21, 29: 30
+    1: 22,   # Queen Vashti deposed
+    2: 23,   # Esther becomes queen; Mordecai uncovers a plot
+    3: 15,   # Haman's plot against the Jews
+    4: 17,   # Mordecai persuades Esther
+    5: 14,   # Esther's request to the king
+    6: 14,   # The king honors Mordecai
+    7: 10,   # Haman hanged
+    8: 17,   # The king's edict in behalf of the Jews
+    9: 32,   # The Jews triumph; Purim instituted
+    10: 3    # Mordecai's greatness
 }
 
 

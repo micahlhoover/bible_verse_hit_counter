@@ -19,41 +19,21 @@ from typing import List
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "1 Chronicles"
+BOOK_NAME = "Esther"
 
 
 VERSES_PER_CHAPTER: List[int] = [
-    54,  # Chapter 1
-    55,  # Chapter 2
-    24,  # Chapter 3
-    43,  # Chapter 4
-    41,  # Chapter 5
-    66,  # Chapter 6
-    40,  # Chapter 7
-    40,  # Chapter 8
-    44,  # Chapter 9
-    14,  # Chapter 10
-    47,  # Chapter 11
-    41,  # Chapter 12
-    14,  # Chapter 13
-    17,  # Chapter 14
-    29,  # Chapter 15
-    43,  # Chapter 16
-    27,  # Chapter 17
-    17,  # Chapter 18
-    19,  # Chapter 19
-     8,  # Chapter 20
-    30,  # Chapter 21
-    19,  # Chapter 22
-    32,  # Chapter 23
-    31,  # Chapter 24
-    31,  # Chapter 25
-    32,  # Chapter 26
-    34,  # Chapter 27
-    21,  # Chapter 28
-    30   # Chapter 29
+    22,  # Chapter 1
+    23,  # Chapter 2
+    15,  # Chapter 3
+    17,  # Chapter 4
+    14,  # Chapter 5
+    14,  # Chapter 6
+    10,  # Chapter 7
+    17,  # Chapter 8
+    32,  # Chapter 9
+     3   # Chapter 10
 ]
-
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
 BASE_URL = "https://bible-api.com"  # [5](https://bible-api.com/)
