@@ -28,7 +28,7 @@ BASE_URL = "https://api.dataforseo.com/v3"
 POST_TASK_URL = f"{BASE_URL}/serp/google/organic/task_post"
 GET_TASK_URL = f"{BASE_URL}/serp/google/organic/task_get/regular"
 
-BOOK_NAME = "Esther"
+BOOK_NAME = "Job"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo.csv"
 
 # Polling / politeness
@@ -45,16 +45,12 @@ RELATIVE_DIVISOR = 50
 # ============================================================
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 22,   # Queen Vashti deposed
-    2: 23,   # Esther becomes queen; Mordecai uncovers a plot
-    3: 15,   # Haman's plot against the Jews
-    4: 17,   # Mordecai persuades Esther
-    5: 14,   # Esther's request to the king
-    6: 14,   # The king honors Mordecai
-    7: 10,   # Haman hanged
-    8: 17,   # The king's edict in behalf of the Jews
-    9: 32,   # The Jews triumph; Purim instituted
-    10: 3    # Mordecai's greatness
+    1: 22,  2: 13,  3: 26,  4: 21,  5: 27,  6: 30,  7: 21,  8: 22,
+    9: 35, 10: 22, 11: 20, 12: 25, 13: 28, 14: 22, 15: 35, 16: 22,
+    17: 16, 18: 21, 19: 29, 20: 29, 21: 34, 22: 30, 23: 17, 24: 25,
+    25:  6, 26: 14, 27: 23, 28: 28, 29: 25, 30: 31, 31: 40, 32: 22,
+    33: 33, 34: 37, 35: 16, 36: 33, 37: 24, 38: 41, 39: 30, 40: 24,
+    41: 34, 42: 17
 }
 
 

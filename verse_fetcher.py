@@ -19,20 +19,52 @@ from typing import List
 #   python ./verse_fetcher.py
 
 
-BOOK_NAME = "Esther"
+BOOK_NAME = "Job"
 
 
 VERSES_PER_CHAPTER: List[int] = [
     22,  # Chapter 1
-    23,  # Chapter 2
-    15,  # Chapter 3
-    17,  # Chapter 4
-    14,  # Chapter 5
-    14,  # Chapter 6
-    10,  # Chapter 7
-    17,  # Chapter 8
-    32,  # Chapter 9
-     3   # Chapter 10
+    13,  # Chapter 2
+    26,  # Chapter 3
+    21,  # Chapter 4
+    27,  # Chapter 5
+    30,  # Chapter 6
+    21,  # Chapter 7
+    22,  # Chapter 8
+    35,  # Chapter 9
+    22,  # Chapter 10
+    20,  # Chapter 11
+    25,  # Chapter 12
+    28,  # Chapter 13
+    22,  # Chapter 14
+    35,  # Chapter 15
+    22,  # Chapter 16
+    16,  # Chapter 17
+    21,  # Chapter 18
+    29,  # Chapter 19
+    29,  # Chapter 20
+    34,  # Chapter 21
+    30,  # Chapter 22
+    17,  # Chapter 23
+    25,  # Chapter 24
+     6,  # Chapter 25
+    14,  # Chapter 26
+    23,  # Chapter 27
+    28,  # Chapter 28
+    25,  # Chapter 29
+    31,  # Chapter 30
+    40,  # Chapter 31
+    22,  # Chapter 32
+    33,  # Chapter 33
+    37,  # Chapter 34
+    16,  # Chapter 35
+    33,  # Chapter 36
+    24,  # Chapter 37
+    41,  # Chapter 38
+    30,  # Chapter 39
+    24,  # Chapter 40
+    34,  # Chapter 41
+    17   # Chapter 42
 ]
 
 # bible-api.com user-input endpoint; translation parameter supported (e.g., ?translation=kjv)
