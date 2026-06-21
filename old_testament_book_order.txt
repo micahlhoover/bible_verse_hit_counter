@@ -12,7 +12,7 @@ Chronicles -
 Ezra -
 Nehemiah -
 Esther -
-Job - g
+Job - g mr
 Psalms
 Proverbs -
 Ecclesiastes
@@ -35,11 +35,11 @@ Haggai
 Zechariah
 Malachi
 
-Matthew - g
-Mark - g
-Luke  - 
-John  -
-Acts  -
+Matthew - g mr
+Mark - g mr
+Luke  - g mr
+John  - g r
+Acts  - g r
 Romans  -
 1 Corinthians -
 2 Corinthians  -
@@ -62,3 +62,8 @@ James -
 3 John -
 Jude -
 Revelation -
+
+- = (regular, not grounded)
+g = grounded ("bible" in the SERP query)
+mr = manually repaired 
+

@@ -41,31 +41,14 @@ RELATIVE_DIVISOR = 50
 # VERSES PER CHAPTER (unchanged)
 # ============================================================
 
-BOOK_NAME = "John"
+BOOK_NAME = "Acts"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo_bible.csv"
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 51,   # John 1
-    2: 25,   # John 2
-    3: 36,   # John 3
-    4: 54,   # John 4
-    5: 47,   # John 5
-    6: 71,   # John 6
-    7: 53,   # John 7
-    8: 59,   # John 8
-    9: 41,   # John 9
-    10: 42,  # John 10
-    11: 57,  # John 11
-    12: 50,  # John 12
-    13: 38,  # John 13
-    14: 31,  # John 14
-    15: 27,  # John 15
-    16: 33,  # John 16
-    17: 26,  # John 17
-    18: 40,  # John 18
-    19: 42,  # John 19
-    20: 31,  # John 20
-    21: 25   # John 21
+    1: 26,  2: 47,  3: 26,  4: 37,  5: 42,  6: 15,  7: 60,  8: 40,
+    9: 43, 10: 48, 11: 30, 12: 25, 13: 52, 14: 28, 15: 41, 16: 40,
+   17: 34, 18: 28, 19: 40, 20: 38, 21: 40, 22: 30, 23: 35, 24: 27,
+   25: 27, 26: 32, 27: 44, 28: 31
 }
 
 
