@@ -40,7 +40,7 @@ Mark - g mr
 Luke  - g mr
 John  - g r
 Acts  - g r
-Romans  -
+Romans  - g r
 1 Corinthians -
 2 Corinthians  -
 Galations  -
@@ -65,5 +65,6 @@ Revelation -
 
 - = (regular, not grounded)
 g = grounded ("bible" in the SERP query)
+r = repaired from script
 mr = manually repaired 
 
