@@ -1,0 +1,26 @@
+Sprint Boot / Angular Notes
+
+	Spring Boot "Bible Indexer Backend"
+		Hosting options are :
+			Fly.io	- not actually free
+			Render	+ has actual free option (limits)		<-- this
+					+ easiest to set up
+					- sleeps
+			Railway - costs actual money
+					- sleeps
+					+ easy set up
+				
+			Create from spring thing here :
+				https://start.spring.io
+				
+				build from this directory:
+					C:\Users\m.l.hoover\Desktop\proverbs_indexer\SpringBootServer\bible-indexer-backend
+				run this command :	
+					./mvnw clean package
+				Should see BUILD SUCCESS
+				And a .tar file
+				
+	
+	Angular
+
+
