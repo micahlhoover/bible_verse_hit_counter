@@ -16,9 +16,13 @@ Sprint Boot / Angular Notes
 				build from this directory:
 					C:\Users\m.l.hoover\Desktop\proverbs_indexer\SpringBootServer\bible-indexer-backend
 				run this command :	
-					./mvnw clean package
+					./mvnw clean package		<--- still need to do this
 				Should see BUILD SUCCESS
-				And a .tar file
+				And a .tar file	
+				
+					Oh ... render uses Docker and has no native Java option
+					
+					
 				
 	
 	Angular
