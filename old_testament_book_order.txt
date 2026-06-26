@@ -1,0 +1,70 @@
+Genesis -
+Exodus -
+Leviticus -
+Numbers -
+Deuteronomy -
+Joshua -
+Judges -
+Ruth -
+Samuel -
+Kings -
+Chronicles -
+Ezra -
+Nehemiah -
+Esther -
+Job - g mr
+Psalms
+Proverbs -
+Ecclesiastes
+Song of Solomon
+Isaiah
+Jeremiah
+Lamentations
+Ezekiel
+Daniel
+Hosea
+Joel
+Amos
+Obadiah
+Jonah
+Micah
+Nahum
+Habakkuk
+Zephaniah
+Haggai
+Zechariah
+Malachi
+
+Matthew - g mr
+Mark - g mr
+Luke  - g mr
+John  - g r
+Acts  - g r
+Romans  - g r
+1 Corinthians -
+2 Corinthians  -
+Galations  -
+Ephesians  -
+Philippians  -
+Colossians  -
+1 Thessalonians -
+2 Thessalonians -
+1 Timothy -
+2 Timothy -
+Titus -
+Philemon -
+Hebrews -
+James -
+1 Peter -
+2 Peter -
+1 John -
+2 John -
+3 John -
+Jude -
+Revelation -
+
+- = (regular, not grounded)
+g = grounded ("bible" in the SERP query)
+r = repaired from script
+mr = manually repaired 
+

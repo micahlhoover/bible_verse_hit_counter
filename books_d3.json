@@ -2,6 +2,2026 @@
   "name": "Bible",
   "children": [
     {
+      "name": "Genesis",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 8610000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 3970000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 5180000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 2450000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 841000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 3660000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 2400000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 2390000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 839000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 1960000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 1150000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 5390000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 5750000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 2380000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 4820000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 3520000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 756000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 382000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 374000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 749000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 449000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 4860000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 723000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 103000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 718000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 341000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 386000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 353000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 1240000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 490000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 112000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 386000
+        },
+        {
+          "name": "Chapter 33",
+          "size": 385000
+        },
+        {
+          "name": "Chapter 34",
+          "size": 169000
+        },
+        {
+          "name": "Chapter 35",
+          "size": 136000
+        },
+        {
+          "name": "Chapter 36",
+          "size": 296000
+        },
+        {
+          "name": "Chapter 37",
+          "size": 373000
+        },
+        {
+          "name": "Chapter 38",
+          "size": 317000
+        },
+        {
+          "name": "Chapter 39",
+          "size": 128000
+        },
+        {
+          "name": "Chapter 40",
+          "size": 151000
+        },
+        {
+          "name": "Chapter 41",
+          "size": 456000
+        },
+        {
+          "name": "Chapter 42",
+          "size": 217000
+        },
+        {
+          "name": "Chapter 43",
+          "size": 75600
+        },
+        {
+          "name": "Chapter 44",
+          "size": 77200
+        },
+        {
+          "name": "Chapter 45",
+          "size": 74200
+        },
+        {
+          "name": "Chapter 46",
+          "size": 82000
+        },
+        {
+          "name": "Chapter 47",
+          "size": 185000
+        },
+        {
+          "name": "Chapter 48",
+          "size": 190000
+        },
+        {
+          "name": "Chapter 49",
+          "size": 71800
+        },
+        {
+          "name": "Chapter 50",
+          "size": 178000
+        }
+      ],
+      "book_verse_hit_total": 4922912200
+    },
+    {
+      "name": "Exodus",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 3010000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1710000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 3000000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 528000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 1240000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 1410000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 715000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 692000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 387000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 597000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 915000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 356000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 657000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 351000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 383000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 722000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 467000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 376000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 547000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 644000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 231000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 808000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 383000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 249000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 357000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 113000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 203000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 74800
+        },
+        {
+          "name": "Chapter 29",
+          "size": 132000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 140000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 308000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 743000
+        },
+        {
+          "name": "Chapter 33",
+          "size": 132000
+        },
+        {
+          "name": "Chapter 34",
+          "size": 3040000
+        },
+        {
+          "name": "Chapter 35",
+          "size": 159000
+        },
+        {
+          "name": "Chapter 36",
+          "size": 764000
+        },
+        {
+          "name": "Chapter 37",
+          "size": 89200
+        },
+        {
+          "name": "Chapter 38",
+          "size": 57900
+        },
+        {
+          "name": "Chapter 39",
+          "size": 339000
+        },
+        {
+          "name": "Chapter 40",
+          "size": 83000
+        }
+      ],
+      "book_verse_hit_total": 1520660000
+    },
+    {
+      "name": "Leviticus",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 1020000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 694000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 770000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 246000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 641000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 369000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 262000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 290000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 387000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 651000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 69300
+        },
+        {
+          "name": "Chapter 12",
+          "size": 382000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 40900
+        },
+        {
+          "name": "Chapter 14",
+          "size": 42700
+        },
+        {
+          "name": "Chapter 15",
+          "size": 305000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 127000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 312000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 274000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 82100
+        },
+        {
+          "name": "Chapter 20",
+          "size": 373000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 390000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 235000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 71300
+        },
+        {
+          "name": "Chapter 24",
+          "size": 203000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 21300
+        },
+        {
+          "name": "Chapter 26",
+          "size": 35700
+        },
+        {
+          "name": "Chapter 27",
+          "size": 184000
+        }
+      ],
+      "book_verse_hit_total": 477689400
+    },
+    {
+      "name": "Numbers",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 7270000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 7640000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 3950000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 3870000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 10300000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 7850000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 492000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 9550000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 26500000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 5850000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 6970000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 37900000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 35300000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 8960000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 2470000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 3770000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 5410000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 4030000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 15700000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 8450000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 4540000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 1030000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 24800000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 160000000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 2360000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 812000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 1490000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 8060000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 1500000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 7840000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 373000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 1470000
+        },
+        {
+          "name": "Chapter 33",
+          "size": 1810000
+        },
+        {
+          "name": "Chapter 34",
+          "size": 406000
+        },
+        {
+          "name": "Chapter 35",
+          "size": 2090000
+        },
+        {
+          "name": "Chapter 36",
+          "size": 524000
+        }
+      ],
+      "book_verse_hit_total": 43140962000
+    },
+    {
+      "name": "Deuteronomy",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 233000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 258000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 379000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 42400
+        },
+        {
+          "name": "Chapter 5",
+          "size": 397000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 639000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 369000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 453000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 508000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 636000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 646000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 382000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 668000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 344000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 386000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 398000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 839000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 689000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 1210000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 449000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 1100000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 384000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 1130000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 368000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 161000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 230000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 247000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 17300
+        },
+        {
+          "name": "Chapter 29",
+          "size": 118000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 219000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 227000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 39200
+        },
+        {
+          "name": "Chapter 33",
+          "size": 68700
+        },
+        {
+          "name": "Chapter 34",
+          "size": 140000
+        }
+      ],
+      "book_verse_hit_total": 749182300
+    },
+    {
+      "name": "Joshua",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 15700000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 4400000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 4850000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 5470000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 5580000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 1770000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 2260000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 907000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 3720000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 982000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 4150000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 6620000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 563000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 43300000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 74600
+        },
+        {
+          "name": "Chapter 16",
+          "size": 2760000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 9440000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 655000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 651000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 1350000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 928000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 419000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 960000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 367000
+        }
+      ],
+      "book_verse_hit_total": 3969670400
+    },
+    {
+      "name": "Judges",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 1500000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 2930000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 1400000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 2170000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 3760000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 434000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 1110000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 642000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 978000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 2750000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 1090000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 7190000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 1630000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 1980000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 5480000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 4940000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 389000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 854000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 1630000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 354000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 1370000
+        }
+      ],
+      "book_verse_hit_total": 2088179000
+    },
+    {
+      "name": "Ruth",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 8100000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 3480000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 5160000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 2470000
+        }
+      ],
+      "book_verse_hit_total": 1269780000
+    },
+    {
+      "name": "1 Samuel",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 7500000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 2430000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 5610000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 6270000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 8660000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 3710000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 4460000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 3980000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 3530000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 5460000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 9200000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 5570000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 2380000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 430000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 2200000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 3090000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 911000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 5310000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 2920000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 424000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 2760000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 58000000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 1910000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 778000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 366000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 1470000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 2790000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 647000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 4650000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 36500000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 598000
+        }
+      ],
+      "book_verse_hit_total": 6424441000
+    },
+    {
+      "name": "2 Samuel",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 7930000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 2320000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 1230000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 14100000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 5600000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 5650000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 2140000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 4720000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 6970000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 6750000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 4990000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 7090000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 606000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 1010000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 1320000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 3980000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 849000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 689000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 1050000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 3440000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 16900000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 955000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 504000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 16900000
+        }
+      ],
+      "book_verse_hit_total": 6188294000
+    },
+    {
+      "name": "1 Kings",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 1690000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1270000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 7110000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 1380000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 5670000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 1350000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 2320000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 112000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 2770000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 9370000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 7090000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 3480000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 3560000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 1780000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 5400000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 3300000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 4130000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 1570000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 5890000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 690000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 2100000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 578000
+        }
+      ],
+      "book_verse_hit_total": 7117467000
+    },
+    {
+      "name": "2 Kings",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 11100000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 6250000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 4040000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 1030000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 3750000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 2230000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 5820000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 3150000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 798000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 6630000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 8240000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 9260000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 4400000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 2820000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 2480000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 6240000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 855000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 842000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 820000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 14100000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 2460000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 3000000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 834000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 1080000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 5160000
+        }
+      ],
+      "book_verse_hit_total": 4741858678
+    },
+    {
+      "name": "1 Chronicles",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 362000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 265000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 1120000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 234000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 224000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 115000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 266000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 317000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 194000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 1940000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 212000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 259000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 4970000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 1120000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 385000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 129000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 387000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 481000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 399000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 386000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 421000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 388000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 264000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 303000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 389000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 181000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 167000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 175000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 1430000
+        }
+      ],
+      "book_verse_hit_total": 1221069117
+    },
+    {
+      "name": "2 Chronicles",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 3740000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1560000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 2770000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 931000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 2920000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 178000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 546000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 819000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 366000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 1300000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 1130000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 2660000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 389000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 893000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 760000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 573000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 1290000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 200000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 585000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 228000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 389000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 494000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 403000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 652000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 442000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 201000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 245000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 199000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 148000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 147000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 147000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 767000
+        },
+        {
+          "name": "Chapter 33",
+          "size": 141000
+        },
+        {
+          "name": "Chapter 34",
+          "size": 92400
+        },
+        {
+          "name": "Chapter 35",
+          "size": 82600
+        },
+        {
+          "name": "Chapter 36",
+          "size": 97900
+        }
+      ],
+      "book_verse_hit_total": 1034973277
+    },
+    {
+      "name": "Ezra",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 2150000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 107000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 729000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 413000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 730000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 385000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 250000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 203000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 611000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 314000
+        }
+      ],
+      "book_verse_hit_total": 358908391
+    },
+    {
+      "name": "Nehemiah",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 938000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 416000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 63200
+        },
+        {
+          "name": "Chapter 4",
+          "size": 387000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 389000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 642000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 26200
+        },
+        {
+          "name": "Chapter 8",
+          "size": 386000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 81900
+        },
+        {
+          "name": "Chapter 10",
+          "size": 86500
+        },
+        {
+          "name": "Chapter 11",
+          "size": 152000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 44700
+        },
+        {
+          "name": "Chapter 13",
+          "size": 151000
+        }
+      ],
+      "book_verse_hit_total": 203120845
+    },
+    {
+      "name": "Esther",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 2770000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1400000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 3080000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 1620000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 2560000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 2660000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 5590000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 1040000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 326000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 2520000
+        }
+      ],
+      "book_verse_hit_total": 833949259
+    },
+    {
+      "name": "Job",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 37200000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 27600000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 20300000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 18600000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 16500000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 77100000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 17900000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 16100000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 9260000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 30000000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 38700000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 32200000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 10600000
+        },
+        {
+          "name": "Chapter 14",
+          "size": 13400000
+        },
+        {
+          "name": "Chapter 15",
+          "size": 11600000
+        },
+        {
+          "name": "Chapter 16",
+          "size": 14600000
+        },
+        {
+          "name": "Chapter 17",
+          "size": 10900000
+        },
+        {
+          "name": "Chapter 18",
+          "size": 18100000
+        },
+        {
+          "name": "Chapter 19",
+          "size": 8330000
+        },
+        {
+          "name": "Chapter 20",
+          "size": 10500000
+        },
+        {
+          "name": "Chapter 21",
+          "size": 6780000
+        },
+        {
+          "name": "Chapter 22",
+          "size": 13100000
+        },
+        {
+          "name": "Chapter 23",
+          "size": 7280000
+        },
+        {
+          "name": "Chapter 24",
+          "size": 129000000
+        },
+        {
+          "name": "Chapter 25",
+          "size": 6830000
+        },
+        {
+          "name": "Chapter 26",
+          "size": 5850000
+        },
+        {
+          "name": "Chapter 27",
+          "size": 5140000
+        },
+        {
+          "name": "Chapter 28",
+          "size": 7970000
+        },
+        {
+          "name": "Chapter 29",
+          "size": 6130000
+        },
+        {
+          "name": "Chapter 30",
+          "size": 37500000
+        },
+        {
+          "name": "Chapter 31",
+          "size": 7520000
+        },
+        {
+          "name": "Chapter 32",
+          "size": 2430000
+        },
+        {
+          "name": "Chapter 33",
+          "size": 5960000
+        },
+        {
+          "name": "Chapter 34",
+          "size": 4580000
+        },
+        {
+          "name": "Chapter 35",
+          "size": 1840000
+        },
+        {
+          "name": "Chapter 36",
+          "size": 1210000
+        },
+        {
+          "name": "Chapter 37",
+          "size": 1410000
+        },
+        {
+          "name": "Chapter 38",
+          "size": 3480000
+        },
+        {
+          "name": "Chapter 39",
+          "size": 2060000
+        },
+        {
+          "name": "Chapter 40",
+          "size": 1240000
+        },
+        {
+          "name": "Chapter 41",
+          "size": 917000
+        },
+        {
+          "name": "Chapter 42",
+          "size": 1180000
+        }
+      ],
+      "book_verse_hit_total": 29317574383
+    },
+    {
       "name": "Proverbs",
       "children": [
         {
@@ -1044,6 +3064,74 @@
         }
       ],
       "book_verse_hit_total": 250090000
+    },
+    {
+      "name": "Philemon",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 289000
+        }
+      ],
+      "book_verse_hit_total": 19723000
+    },
+    {
+      "name": "Hebrews",
+      "children": [
+        {
+          "name": "Chapter 1",
+          "size": 4250000
+        },
+        {
+          "name": "Chapter 2",
+          "size": 1810000
+        },
+        {
+          "name": "Chapter 3",
+          "size": 2150000
+        },
+        {
+          "name": "Chapter 4",
+          "size": 7570000
+        },
+        {
+          "name": "Chapter 5",
+          "size": 2640000
+        },
+        {
+          "name": "Chapter 6",
+          "size": 780000
+        },
+        {
+          "name": "Chapter 7",
+          "size": 370000
+        },
+        {
+          "name": "Chapter 8",
+          "size": 1640000
+        },
+        {
+          "name": "Chapter 9",
+          "size": 425000
+        },
+        {
+          "name": "Chapter 10",
+          "size": 316000
+        },
+        {
+          "name": "Chapter 11",
+          "size": 284000
+        },
+        {
+          "name": "Chapter 12",
+          "size": 3880000
+        },
+        {
+          "name": "Chapter 13",
+          "size": 387000
+        }
+      ],
+      "book_verse_hit_total": 747219000
     },
     {
       "name": "James",
