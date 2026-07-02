@@ -22,8 +22,9 @@ Sprint Boot / Angular Notes
 				
 					Oh ... render uses Docker and has no native Java option
 					
+					bible_verse_hit_counter-1		<-- has the Docker config set up
 					
-				
+					https://bible-verse-hit-counter-1.onrender.com/books		<--- WORKS !
 	
 	Angular
 
