@@ -41,17 +41,17 @@ Luke  - g mr
 John  - g r
 Acts  - g r
 Romans  - g r
-1 Corinthians -
-2 Corinthians  -
-Galations  -
-Ephesians  -
-Philippians  -
-Colossians  -
-1 Thessalonians -
-2 Thessalonians -
-1 Timothy -
-2 Timothy -
-Titus -
+1 Corinthians - g r
+2 Corinthians  - g r
+Galations  - g r
+Ephesians  - g r
+Philippians  - g r
+Colossians  - g r
+1 Thessalonians - g r
+2 Thessalonians - g r
+1 Timothy - g r
+2 Timothy - g r
+Titus - g r
 Philemon -
 Hebrews -
 James -
