@@ -1,5 +1,5 @@
-Genesis -
-Exodus -
+Genesis - g r
+Exodus - g r
 Leviticus -
 Numbers -
 Deuteronomy -
@@ -52,16 +52,16 @@ Colossians  - g r
 1 Timothy - g r
 2 Timothy - g r
 Titus - g r
-Philemon -
-Hebrews -
-James -
-1 Peter -
-2 Peter -
-1 John -
-2 John -
-3 John -
-Jude -
-Revelation -
+Philemon - g r
+Hebrews - g r
+James - g r
+1 Peter - g r
+2 Peter - g r
+1 John - g r
+2 John - g r
+3 John - g r
+Jude - g r
+Revelation - g r
 
 - = (regular, not grounded)
 g = grounded ("bible" in the SERP query)
