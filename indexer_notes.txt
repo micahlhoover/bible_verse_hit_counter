@@ -12,14 +12,14 @@ Might need to pull like this :
 2)  modify verse_indexer_seo3_generic.py
 		modify BOOK_NAME
 		get chapter / verse structure
-			I'm trying to get the web count totals for each verse in a certain book of the Bible using a search API. The python struct I used to keep track of how far to go into each chapter of Proverbs looked like this :VERSES_PER_CHAPTER: Dict[int, int] = {
-				1: 33,  2: 22,  3: 35,  4: 27,  5: 23,  6: 35,  7: 27,  8: 36,
-				9: 18, 10: 32, 11: 31, 12: 28, 13: 25, 14: 35, 15: 33, 16: 33,
-				17: 28, 18: 24, 19: 29, 20: 30, 21: 31, 22: 29, 23: 35, 24: 34,
-				25: 28, 26: 28, 27: 27, 28: 28, 29: 27, 30: 33, 31: 31
-			}
-			Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
-			Can you create a similar python dict for XXXXXXXX and show me the code ?
+I'm trying to get the web count totals for each verse in a certain book of the Bible using a search API. The python struct I used to keep track of how far to go into each chapter of Proverbs looked like this :VERSES_PER_CHAPTER: Dict[int, int] = {
+	1: 33,  2: 22,  3: 35,  4: 27,  5: 23,  6: 35,  7: 27,  8: 36,
+	9: 18, 10: 32, 11: 31, 12: 28, 13: 25, 14: 35, 15: 33, 16: 33,
+	17: 28, 18: 24, 19: 29, 20: 30, 21: 31, 22: 29, 23: 35, 24: 34,
+	25: 28, 26: 28, 27: 27, 28: 28, 29: 27, 30: 33, 31: 31
+}
+Where the first instance in the python object, 1, has 33 because that's how many verses there are, and so on.
+Can you create a similar python dict for xxxxx and show me the code ?
 			
 3)	python ./verse_indexer_seo3_generic.py
 I'm trying to create a python array that contains the number of verses in each chapter like this one from Philippians :
