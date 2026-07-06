@@ -13,6 +13,8 @@ export class App implements OnInit {
 
   protected readonly title = signal('bible-hit-dashboard');
 
+  private bibleData: any;
+
   constructor(
     private bibleApi: BibleApi
   ) {}
@@ -23,7 +25,8 @@ export class App implements OnInit {
 
     this.bibleApi.getHits().subscribe(data => {
 
-      console.log('updating on init');
+      this.bibleData = data;
+
       console.log(data);
 
       this.renderChart(data);
@@ -53,7 +56,7 @@ export class App implements OnInit {
       .remove();
 
     const width = 1200;
-    const height = 700;
+    const height = books.length * 30;
 
     const svg = d3.select('#chart')
       .append('svg')
@@ -81,7 +84,16 @@ export class App implements OnInit {
       .attr('y', d => y(d.name)!)
       .attr('width', d => x(d.hits))
       .attr('height', y.bandwidth())
-      .attr('fill', 'steelblue');
+      .attr('fill', 'steelblue')
+      .on('click', (_event, d) => {
+
+          console.log('Clicked:', d.name);
+
+          this.renderChapterChart(d.name);
+
+      })
+      .append('title')
+      .text(d => `${d.name}: ${d.hits.toLocaleString()}`);
 
     svg.append('g')
       .attr('transform', 'translate(220,0)')
@@ -90,5 +102,20 @@ export class App implements OnInit {
     svg.append('g')
       .attr('transform', `translate(220,${height - 20})`)
       .call(d3.axisBottom(x));
+  }
+
+  renderChapterChart(bookName: string): void {
+
+    const book = this.bibleData[bookName];
+
+    const chapters = Object.entries(book.chapter_verse_hit_total)
+      .map(([chapter, hits]) => ({
+        name: chapter,
+        hits: Number(hits)
+      }));
+
+    console.log(chapters);
+    // this.renderHorizontalChart(chapters);
+
   }
 }
