@@ -38,11 +38,11 @@ export class App implements OnInit {
     //   hits: Number(book.book_verse_hit_total)
     // }));
 
-const books: { name: string; hits: number }[] =
-  Object.values(data).map((book: any) => ({
-    name: String(book.bookName),
-    hits: Number(book.book_verse_hit_total)
-  }));
+    const books: { name: string; hits: number }[] =
+      Object.values(data).map((book: any) => ({
+        name: String(book.bookName),
+        hits: Number(book.book_verse_hit_total)
+      }));
 
     // const topBooks = books
     //   .sort((a, b) => b.hits - a.hits)
@@ -60,38 +60,35 @@ const books: { name: string; hits: number }[] =
       .attr('width', width)
       .attr('height', height);
 
-    const x = d3.scaleBand()
-      .domain(books.map(d => d.name))
-      .range([80, width - 20])
-      .padding(0.1);
-
-    const y = d3.scaleLinear()
+    const x = d3.scaleLinear()
       .domain([
         0,
         d3.max(books, d => d.hits) || 0
       ])
       .nice()
-      .range([height - 80, 20]);
+      .range([0, width - 250]);
+
+    const y = d3.scaleBand()
+      .domain(books.map(d => d.name))
+      .range([20, height - 20])
+      .padding(0.1);
 
     svg.selectAll('rect')
       .data(books)
       .enter()
       .append('rect')
-      .attr('x', d => x(d.name)!)
-      .attr('y', d => y(d.hits))
-      .attr('width', x.bandwidth())
-      .attr('height', d => height - 80 - y(d.hits))
+      .attr('x', 220)
+      .attr('y', d => y(d.name)!)
+      .attr('width', d => x(d.hits))
+      .attr('height', y.bandwidth())
       .attr('fill', 'steelblue');
 
     svg.append('g')
-      .attr('transform', `translate(0,${height - 80})`)
-      .call(d3.axisBottom(x))
-      .selectAll('text')
-      .attr('transform', 'rotate(-45)')
-      .style('text-anchor', 'end');
+      .attr('transform', 'translate(220,0)')
+      .call(d3.axisLeft(y));
 
     svg.append('g')
-      .attr('transform', 'translate(80,0)')
-      .call(d3.axisLeft(y));
+      .attr('transform', `translate(220,${height - 20})`)
+      .call(d3.axisBottom(x));
   }
 }
