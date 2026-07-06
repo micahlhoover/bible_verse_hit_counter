@@ -10,7 +10,10 @@ import java.nio.charset.StandardCharsets;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
-@CrossOrigin(origins = "https://underratedbibleverses.netlify.app")
+@CrossOrigin(origins = {
+        "https://underratedbibleverses.netlify.app",
+        "http://localhost:4200"
+})
 public class MetaController {
 
     @GetMapping("/books")
