@@ -1,4 +1,4 @@
-import { Component, signal, OnInit } from '@angular/core';
+import { Component, signal, OnInit, ChangeDetectorRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BibleApi } from './services/bible-api';
 import * as d3 from 'd3';
@@ -15,10 +15,13 @@ export class App implements OnInit {
 
   showBackButton = false;
 
+  private booksData: { name: string; hits: number }[] = [];
+
   private bibleData: any;
 
   constructor(
-    private bibleApi: BibleApi
+    private bibleApi: BibleApi,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
@@ -43,6 +46,8 @@ export class App implements OnInit {
         name: String(book.bookName),
         hits: Number(book.book_verse_hit_total)
       }));
+
+    this.booksData = books;
 
     this.renderHorizontalChart(books);
   }
@@ -110,6 +115,10 @@ export class App implements OnInit {
 
   renderChapterChart(bookName: string): void {
 
+    this.showBackButton = true;
+    this.cdr.detectChanges();
+    console.log('showBackButton:', this.showBackButton);
+
     const book = this.bibleData[bookName];
 
     const chapters = Object.entries(book.chapter_verse_hit_total)
@@ -120,6 +129,14 @@ export class App implements OnInit {
 
     //console.log(chapters);
     this.renderHorizontalChart(chapters);
+
+  }
+
+  showBooks(): void {
+
+    this.showBackButton = false;
+
+    this.renderHorizontalChart(this.booksData);
 
   }
 }
