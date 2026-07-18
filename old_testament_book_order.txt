@@ -1,17 +1,20 @@
 Genesis - g r
 Exodus - g r
-Leviticus -
-Numbers -
-Deuteronomy -
-Joshua -
-Judges -
-Ruth -
-Samuel -
-Kings -
-Chronicles -
-Ezra -
-Nehemiah -
-Esther -
+Leviticus - g r
+Numbers - g r   (some manual)
+Deuteronomy - g r
+Joshua - g r
+Judges - g r
+Ruth - g r
+1 Samuel - g r
+2 Samuel - g r
+1 Kings - g r
+2 Kings - g r
+1 Chronicles - g r
+2 Chronicles - g r
+Ezra - g mr
+Nehemiah - g mr
+Esther - g mr
 Job - g mr
 Psalms
 Proverbs -
