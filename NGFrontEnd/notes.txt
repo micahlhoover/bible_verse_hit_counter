@@ -1,0 +1,15 @@
+		ng is version 21
+		node is 22
+		
+		run it like this ng serve
+		https://underratedbibleverses.netlify.app
+		underratedbibleverses.netlify.app
+		
+		
+		Next steps :
+			enable CORS on the Spring Boot server
+			maybe fix the .css problem
+			
+			get the bible books stuff displaying in the console window (probably locally before git deploying)
+			
+			get the d3 stuff to auto render based on the bible meta json
