@@ -12,24 +12,24 @@ Ruth - g r
 2 Kings - g r
 1 Chronicles - g r
 2 Chronicles - g r
-Ezra - g mr
-Nehemiah - g mr
-Esther - g mr
-Job - g mr
-Psalms
-Proverbs -
-Ecclesiastes
-Song of Solomon
-Isaiah
-Jeremiah
-Lamentations
-Ezekiel
-Daniel
-Hosea
-Joel
-Amos
-Obadiah
-Jonah
+Ezra - g ar
+Nehemiah - g ar
+Esther - g ar
+Job - g ar
+Psalms g ar
+Proverbs - g ar 
+Ecclesiastes g ar 
+Song of Solomon g ar 
+Isaiah g ar 
+Jeremiah g ar 
+Lamentations g ar 
+Ezekiel g ar 
+Daniel g ar 
+Hosea g ar
+Joel g ar       good
+Amos g ar mr (google infection)
+Obadiah g ar mr (google infection)
+Jonah   (google infection ... started over)
 Micah
 Nahum
 Habakkuk
@@ -69,5 +69,6 @@ Revelation - g r
 - = (regular, not grounded)
 g = grounded ("bible" in the SERP query)
 r = repaired from script
-mr = manually repaired 
+ar = manually repaired 
+mr = ?? repaired
 
