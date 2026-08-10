@@ -41,14 +41,14 @@ RELATIVE_DIVISOR = 50
 # VERSES PER CHAPTER (unchanged)
 # ============================================================
 
-BOOK_NAME = "Jonah"
+BOOK_NAME = "Malachi"
 OUT_CSV = f"{BOOK_NAME}_total_hits_dataforseo_bible.csv"
 
 VERSES_PER_CHAPTER: Dict[int, int] = {
-    1: 17,
-    2: 10,
-    3: 10,
-    4: 11
+    1: 14,
+    2: 17,
+    3: 18,
+    4: 6
 }
     
 def iter_refs() -> List[Tuple[int, int]]:

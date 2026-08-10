@@ -29,14 +29,14 @@ Hosea g ar
 Joel g ar       good
 Amos g ar mr (google infection)
 Obadiah g ar mr (google infection)
-Jonah   (google infection ... started over)
-Micah
-Nahum
-Habakkuk
-Zephaniah
-Haggai
-Zechariah
-Malachi
+Jonah g ar  (google infection ... started over)
+Micah g ar
+Nahum g ar
+Habakkuk g ar
+Zephaniah g ar
+Haggai g ar
+Zechariah g ar
+Malachi g ar
 
 Matthew - g mr
 Mark - g mr
