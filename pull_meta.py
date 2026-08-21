@@ -62,7 +62,7 @@ def main():
             fieldnames = reader.fieldnames
             rows = list(reader)
             book_name = ""
-            
+
             for row in rows :
                 #print(f"row : {row}")
                 this_book.bookName = row["book"]
@@ -70,18 +70,28 @@ def main():
                 book_name = this_book.bookName
                 chapter = int(row["chapter"])
                 hits = row["raw_hit_count_initial"]
-                this_book.chapter_verse_hit_total[chapter] = int(hits)
+                if chapter in this_book.chapter_verse_hit_total:
+                    this_book.chapter_verse_hit_total[chapter] += int(hits)
+                else:
+                    this_book.chapter_verse_hit_total[chapter] = int(hits)
+                this_book.chapter_verse_hit_total[chapter] = this_book.chapter_verse_hit_total[chapter] + int(hits)
                 total_hits_this_book += int(hits)
+                #if "Ecclesiastes" in book_name:
+                #     print(f"Found an Ecclesiastes line with chapter '{chapter}'")
+                if "Ecclesiastes" in book_name and chapter == 9:
+                     print(f"Ecclesiastes 9 verse {row["verse"]} raw hits : {hits} total, chapter total : {this_book.chapter_verse_hit_total[chapter]}")
+
+            #print(f"book: {book_name}")
 
             this_book.book_verse_hit_total = total_hits_this_book
 
             books[book_name] = this_book
 
         # now we should have total and book and chapter totals
-        for key in books :
-            print(f"Here is the meta on {key}")
-            print(f"total verses : {books[key].book_verse_hit_total}")
-            print(f"Chapter 1 of {key} has {books[key].chapter_verse_hit_total[1]} many web search hits")
+        #for key in books :
+        #    print(f"Here is the meta on {key}")
+        #    print(f"total verses : {books[key].book_verse_hit_total}")
+        #    print(f"Chapter 1 of {key} has {books[key].chapter_verse_hit_total[1]} many web search hits")
 
 
 

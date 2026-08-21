@@ -24,6 +24,7 @@ const CANONICAL_BIBLE_BOOKS: string[] = [
   'Psalms',
   'Proverbs',
   'Ecclesiastes',
+  'Song of Solomon',
   'Isaiah',
   'Jeremiah',
   'Lamentations',
