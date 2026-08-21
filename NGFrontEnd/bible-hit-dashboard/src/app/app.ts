@@ -1,6 +1,7 @@
 import { Component, signal, OnInit, ChangeDetectorRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BibleApi } from './services/bible-api';
+import { sortBooksByCanonicalOrder } from './services/bible-books';
 import * as d3 from 'd3';
 
 @Component({
@@ -47,9 +48,12 @@ export class App implements OnInit {
         hits: Number(book.book_verse_hit_total)
       }));
 
-    this.booksData = books;
+    // Sort books in canonical Bible order
+    const sortedBooks = sortBooksByCanonicalOrder(books);
 
-    this.renderHorizontalChart(books);
+    this.booksData = sortedBooks;
+
+    this.renderHorizontalChart(sortedBooks);
   }
 
 

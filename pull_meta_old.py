@@ -13,7 +13,7 @@ from pathlib import Path
 import csv
 from typing import Dict, List
 
-path_to_raw_canonical_order_verse_totals = "./archive2"
+path_to_raw_canonical_order_verse_totals = "./archive"
  
 class Book:
     # Constructor method to initialize instance attributes
@@ -51,11 +51,7 @@ def main():
 
         if "repair" not in file :
             print(f"skipping file {file} because it doesn't look repaired yet")
-            continue
-
-        if "bible" not in file:
-            print(f"skipping file {file} because it doesn't look repaired yet")
-            continue
+            continue 
 
         with open(f"{path_to_raw_canonical_order_verse_totals}/{file}", newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
@@ -68,6 +64,7 @@ def main():
                 this_book.bookName = row["book"]
                 #print(f"the book is named {this_book.bookName}")
                 book_name = this_book.bookName
+#                this_book.book_verse_hit_total += int(row["raw_hit_count_initial"])
                 chapter = int(row["chapter"])
                 hits = row["raw_hit_count_initial"]
                 this_book.chapter_verse_hit_total[chapter] = int(hits)
